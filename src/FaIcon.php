@@ -101,6 +101,21 @@ class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
     return Span::create($items)->addClass('fa-layers', 'fa-fw');
   }
 
+  static public function stack(...$icons)
+  {
+    $items = [];
+
+    foreach($icons as $i => $icon)
+    {
+      if($icon instanceof FaIcon)
+      {
+        $icon->addClass('fa-stack-' . ($i == 0 ? 2 : 1) . 'x');
+        $items[] = $icon;
+      }
+    }
+    return Span::create($items)->addClass('fa-stack', 'fa-fw');
+  }
+
   /**
    * By default, FontAwesome uses '<i>' tags for brevity.
    * '<span>' is more semantic, and is opt in
