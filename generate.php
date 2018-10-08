@@ -9,12 +9,16 @@ $yaml = Yaml::parse(file_get_contents($url));
 $url = 'vendor/fortawesome/font-awesome/advanced-options/metadata/icons.yml';
 $iconsYaml = Yaml::parse(file_get_contents($url));
 
-$brandIcons = [];
+$brandIcons = $miscIcons = [];
 foreach($iconsYaml as $icon => $data)
 {
   if($data['styles'] && in_array('brands', $data['styles']))
   {
     $brandIcons[] = $icon;
+  }
+  else
+  {
+    $miscIcons[] = $icon;
   }
 }
 
@@ -148,6 +152,21 @@ $fileContent .= '}' . PHP_EOL;
 $filename = 'src/Interfaces/Icons/FaBrandIcons.php';
 file_put_contents($filename, $fileContent);
 $interfaces[] = 'FaBrandIcons';
+
+/* Misc Icons */
+
+$fileContent = '<?php' . PHP_EOL;
+$fileContent .= 'namespace Fortifi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+$fileContent .= 'interface MiscIcons' . PHP_EOL;
+$fileContent .= '{' . PHP_EOL;
+$fileContent .= iconsLoop('MiscIcons', array_diff($miscIcons, $usedIcons), $usedIcons, $reservedWords);
+$fileContent .= '}' . PHP_EOL;
+
+$filename = 'src/Interfaces/Icons/MiscIcons.php';
+file_put_contents($filename, $fileContent);
+$interfaces[] = 'MiscIcons';
+
+/* Wrap All Icons */
 
 $fileContent = '<?php' . PHP_EOL;
 $fileContent .= 'namespace Fortifi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
