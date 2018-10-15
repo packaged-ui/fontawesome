@@ -3,7 +3,7 @@ namespace Fortifi\FontAwesome\Interfaces\Icons;
 
 interface EducationIcons
 {
-  const APPLE_ALT = 'fa-apple-alt';
+  const APPLE_ALT_EDU = 'fa-apple-alt';
   const ATOM = 'fa-atom';
   const AWARD = 'fa-award';
   const BELL_EDU = 'fa-bell';

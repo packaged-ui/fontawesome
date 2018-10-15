@@ -7,7 +7,7 @@ interface SportsIcons
   const BASKETBALL_BALL = 'fa-basketball-ball';
   const BOWLING_BALL = 'fa-bowling-ball';
   const DUMBBELL = 'fa-dumbbell';
-  const FOOTBALL_BALL = 'fa-football-ball';
+  const FOOTBALL_BALL_SPO = 'fa-football-ball';
   const FUTBOL_SPO = 'fa-futbol';
   const GOLF_BALL = 'fa-golf-ball';
   const HOCKEY_PUCK = 'fa-hockey-puck';

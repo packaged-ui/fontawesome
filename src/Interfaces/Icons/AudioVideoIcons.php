@@ -45,6 +45,7 @@ interface AudioVideoIcons
   const UNDO_ALT_AVI = 'fa-undo-alt';
   const VIDEO = 'fa-video';
   const VOLUME_DOWN = 'fa-volume-down';
+  const VOLUME_MUTE = 'fa-volume-mute';
   const VOLUME_OFF = 'fa-volume-off';
   const VOLUME_UP = 'fa-volume-up';
   const YOUTUBE = 'fa-youtube';

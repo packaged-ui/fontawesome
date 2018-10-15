@@ -151,6 +151,7 @@ interface InterfacesIcons
   const USER_ALT = 'fa-user-alt';
   const USER_CIRCLE = 'fa-user-circle';
   const VOLUME_DOWN_INT = 'fa-volume-down';
+  const VOLUME_MUTE_INT = 'fa-volume-mute';
   const VOLUME_OFF_INT = 'fa-volume-off';
   const VOLUME_UP_INT = 'fa-volume-up';
   const WIFI_INT = 'fa-wifi';

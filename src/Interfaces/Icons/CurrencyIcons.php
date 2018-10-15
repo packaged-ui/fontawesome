@@ -10,6 +10,7 @@ interface CurrencyIcons
   const EURO_SIGN = 'fa-euro-sign';
   const GG = 'fa-gg';
   const GG_CIRCLE = 'fa-gg-circle';
+  const HRYVNIA = 'fa-hryvnia';
   const LIRA_SIGN = 'fa-lira-sign';
   const MONEY_BILL = 'fa-money-bill';
   const MONEY_BILL_ALT = 'fa-money-bill-alt';

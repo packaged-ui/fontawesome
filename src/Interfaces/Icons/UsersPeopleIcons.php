@@ -33,6 +33,7 @@ interface UsersPeopleIcons
   const USER_EDIT = 'fa-user-edit';
   const USER_FRIENDS = 'fa-user-friends';
   const USER_GRADUATE_UPI = 'fa-user-graduate';
+  const USER_INJURED = 'fa-user-injured';
   const USER_LOCK = 'fa-user-lock';
   const USER_MD_UPI = 'fa-user-md';
   const USER_MINUS = 'fa-user-minus';

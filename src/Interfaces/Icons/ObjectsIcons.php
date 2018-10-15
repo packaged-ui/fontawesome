@@ -18,6 +18,7 @@ interface ObjectsIcons
   const BLENDER = 'fa-blender';
   const BOMB_OBJ = 'fa-bomb';
   const BOOK_OBJ = 'fa-book';
+  const BOOK_DEAD_OBJ = 'fa-book-dead';
   const BOOKMARK_OBJ = 'fa-bookmark';
   const BRIEFCASE_OBJ = 'fa-briefcase';
   const BROADCAST_TOWER_OBJ = 'fa-broadcast-tower';
@@ -46,6 +47,8 @@ interface ObjectsIcons
   const CUBES = 'fa-cubes';
   const CUT_OBJ = 'fa-cut';
   const DICE = 'fa-dice';
+  const DICE_D20_OBJ = 'fa-dice-d20';
+  const DICE_D6_OBJ = 'fa-dice-d6';
   const DICE_FIVE = 'fa-dice-five';
   const DICE_FOUR = 'fa-dice-four';
   const DICE_ONE = 'fa-dice-one';
@@ -84,6 +87,7 @@ interface ObjectsIcons
   const GLASSES_OBJ = 'fa-glasses';
   const GLOBE_OBJ = 'fa-globe';
   const GRADUATION_CAP_OBJ = 'fa-graduation-cap';
+  const HAT_WIZARD_OBJ = 'fa-hat-wizard';
   const HDD_OBJ = 'fa-hdd';
   const HEADPHONES_OBJ = 'fa-headphones';
   const HEADPHONES_ALT = 'fa-headphones-alt';
@@ -144,6 +148,7 @@ interface ObjectsIcons
   const PLUG_OBJ = 'fa-plug';
   const _PRINT_OBJ = 'fa-print';
   const PUZZLE_PIECE = 'fa-puzzle-piece';
+  const RING_OBJ = 'fa-ring';
   const ROAD_OBJ = 'fa-road';
   const ROCKET_OBJ = 'fa-rocket';
   const RULER_COMBINED_OBJ = 'fa-ruler-combined';
@@ -152,12 +157,14 @@ interface ObjectsIcons
   const SAVE_OBJ = 'fa-save';
   const SCHOOL_OBJ = 'fa-school';
   const SCREWDRIVER_OBJ = 'fa-screwdriver';
+  const SCROLL_OBJ = 'fa-scroll';
   const SEARCH_OBJ = 'fa-search';
   const SHIELD_ALT_OBJ = 'fa-shield-alt';
   const SHOPPING_BAG_OBJ = 'fa-shopping-bag';
   const SHOPPING_BASKET_OBJ = 'fa-shopping-basket';
   const SHOPPING_CART_OBJ = 'fa-shopping-cart';
   const SHOWER_OBJ = 'fa-shower';
+  const SKULL_CROSSBONES_OBJ = 'fa-skull-crossbones';
   const SNOWFLAKE = 'fa-snowflake';
   const SPACE_SHUTTLE = 'fa-space-shuttle';
   const STAR_OBJ = 'fa-star';

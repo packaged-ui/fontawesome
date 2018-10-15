@@ -9,6 +9,7 @@ interface BuildingsIcons
   const HOME = 'fa-home';
   const HOSPITAL = 'fa-hospital';
   const HOSPITAL_ALT = 'fa-hospital-alt';
+  const HOUSE_DAMAGE = 'fa-house-damage';
   const INDUSTRY = 'fa-industry';
   const MOSQUE = 'fa-mosque';
   const PLACE_OF_WORSHIP = 'fa-place-of-worship';

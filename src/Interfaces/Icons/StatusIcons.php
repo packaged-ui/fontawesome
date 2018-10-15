@@ -88,6 +88,7 @@ interface StatusIcons
   const VIDEO_STA = 'fa-video';
   const VIDEO_SLASH_STA = 'fa-video-slash';
   const VOLUME_DOWN_STA = 'fa-volume-down';
+  const VOLUME_MUTE_STA = 'fa-volume-mute';
   const VOLUME_OFF_STA = 'fa-volume-off';
   const VOLUME_UP_STA = 'fa-volume-up';
   const WIFI_STA = 'fa-wifi';

@@ -12,6 +12,7 @@ interface ReligionIcons
   const DOVE_REL = 'fa-dove';
   const GOPURAM_REL = 'fa-gopuram';
   const HAMSA = 'fa-hamsa';
+  const HANUKIAH = 'fa-hanukiah';
   const HAYKAL = 'fa-haykal';
   const JEDI = 'fa-jedi';
   const JOURNAL_WHILLS = 'fa-journal-whills';

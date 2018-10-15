@@ -4,6 +4,7 @@ namespace Fortifi\FontAwesome\Interfaces\Icons;
 interface HandsIcons
 {
   const ALLERGIES = 'fa-allergies';
+  const FIST_RAISED_HAN = 'fa-fist-raised';
   const HAND_HOLDING = 'fa-hand-holding';
   const HAND_LIZARD = 'fa-hand-lizard';
   const HAND_PAPER = 'fa-hand-paper';

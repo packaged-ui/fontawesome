@@ -74,7 +74,7 @@ interface MapsIcons
   const MUSIC_MAP = 'fa-music';
   const NEWSPAPER = 'fa-newspaper';
   const PARKING = 'fa-parking';
-  const PAW = 'fa-paw';
+  const PAW_MAP = 'fa-paw';
   const PHONE_MAP = 'fa-phone';
   const PHONE_SQUARE_MAP = 'fa-phone-square';
   const PHONE_VOLUME_MAP = 'fa-phone-volume';
@@ -107,7 +107,7 @@ interface MapsIcons
   const TINT_MAP = 'fa-tint';
   const TRAFFIC_LIGHT = 'fa-traffic-light';
   const TRAIN = 'fa-train';
-  const TREE = 'fa-tree';
+  const TREE_MAP = 'fa-tree';
   const TROPHY_MAP = 'fa-trophy';
   const TRUCK_MAP = 'fa-truck';
   const TTY_MAP = 'fa-tty';
