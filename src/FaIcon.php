@@ -15,6 +15,7 @@ use Packaged\Glimpse\Core\HtmlTag;
 use Packaged\Glimpse\Core\ISafeHtmlProducer;
 use Packaged\Glimpse\Core\SafeHtml;
 use Packaged\Glimpse\Tags\Span;
+use Packaged\Glimpse\Tags\Text\ItalicText;
 use Packaged\Helpers\ValueAs;
 
 class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
@@ -79,7 +80,7 @@ class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
       }
     }
 
-    $this->_icon = HtmlTag::createTag('i');
+    $this->_icon = ItalicText::create();
     $this->_icon->addClass($this->_iconKey, $this->_getStyle());
   }
 
