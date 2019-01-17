@@ -12,11 +12,11 @@ use Fortifi\FontAwesome\Enums\FaTransforms;
 use Fortifi\FontAwesome\Interfaces\Icons\FaBrandIcons;
 use Fortifi\FontAwesome\Interfaces\Icons\FaIcons;
 use Packaged\Glimpse\Core\HtmlTag;
-use Packaged\Glimpse\Core\ISafeHtmlProducer;
-use Packaged\Glimpse\Core\SafeHtml;
 use Packaged\Glimpse\Tags\Span;
 use Packaged\Glimpse\Tags\Text\ItalicText;
 use Packaged\Helpers\ValueAs;
+use Packaged\SafeHtml\ISafeHtmlProducer;
+use Packaged\SafeHtml\SafeHtml;
 
 class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
 {
@@ -125,7 +125,10 @@ class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
    */
   public function span()
   {
-    $this->_icon->setTag('span');
+    $icon = Span::create($this->_icon->getContent());
+    $icon->setAttributes($this->_icon->getAttributes());
+    $icon->addClass($this->_icon->getClasses());
+    $this->_icon = $icon;
     return $this;
   }
 

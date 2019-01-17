@@ -3,7 +3,7 @@ namespace Fortifi\Tests\FontAwesome;
 
 use Fortifi\FontAwesome\FaIcon;
 use Packaged\Glimpse\Core\HtmlTag;
-use Packaged\Glimpse\Core\SafeHtml;
+use Packaged\SafeHtml\SafeHtml;
 use PHPUnit\Framework\TestCase;
 
 class IconsTest extends TestCase
