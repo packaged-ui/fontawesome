@@ -4,8 +4,8 @@
   "license": "MIT",
   "require": {
     "php": ">=5.6",
-    "packaged/glimpse": "~0.8||~2.0",
-    "packaged/safehtml": "1.0.*",
+    "packaged/glimpse": "^0.8||^1.0||^2.0",
+    "packaged/safehtml": "^1.0||^2.0",
     "packaged/helpers": "^1.0"
   },
   "require-dev": {

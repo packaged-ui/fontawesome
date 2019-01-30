@@ -839,9 +839,9 @@ class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
   }
 
   /**
-   * @return SafeHtml|SafeHtml[]
+   * @return SafeHtml
    */
-  public function produceSafeHTML()
+  public function produceSafeHTML(): SafeHtml
   {
     try
     {
