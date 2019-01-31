@@ -9,6 +9,7 @@ interface AudioVideoIcons
   const CIRCLE = 'fa-circle';
   const CLOSED_CAPTIONING_AVI = 'fa-closed-captioning';
   const COMPRESS = 'fa-compress';
+  const COMPRESS_ARROWS_ALT_AVI = 'fa-compress-arrows-alt';
   const EJECT = 'fa-eject';
   const EXPAND = 'fa-expand';
   const EXPAND_ARROWS_ALT_AVI = 'fa-expand-arrows-alt';

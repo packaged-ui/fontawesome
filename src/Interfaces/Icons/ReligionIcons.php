@@ -25,7 +25,7 @@ interface ReligionIcons
   const PEACE = 'fa-peace';
   const PLACE_OF_WORSHIP_REL = 'fa-place-of-worship';
   const PRAY = 'fa-pray';
-  const PRAYING_HANDS = 'fa-praying-hands';
+  const PRAYING_HANDS_REL = 'fa-praying-hands';
   const QURAN = 'fa-quran';
   const STAR_AND_CRESCENT = 'fa-star-and-crescent';
   const STAR_OF_DAVID = 'fa-star-of-david';

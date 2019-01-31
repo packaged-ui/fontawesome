@@ -9,8 +9,9 @@ interface LogisticsIcons
   const CLIPBOARD_LIST = 'fa-clipboard-list';
   const DOLLY = 'fa-dolly';
   const DOLLY_FLATBED = 'fa-dolly-flatbed';
+  const HARD_HAT = 'fa-hard-hat';
   const PALLET = 'fa-pallet';
   const SHIPPING_FAST = 'fa-shipping-fast';
   const TRUCK_LOG = 'fa-truck';
-  const WAREHOUSE = 'fa-warehouse';
+  const WAREHOUSE_LOG = 'fa-warehouse';
 }

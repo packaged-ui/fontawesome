@@ -61,8 +61,11 @@ interface EditorsIcons
   const TH = 'fa-th';
   const TH_LARGE = 'fa-th-large';
   const TH_LIST = 'fa-th-list';
+  const TOOLS = 'fa-tools';
   const TRASH = 'fa-trash';
   const TRASH_ALT = 'fa-trash-alt';
+  const TRASH_RESTORE = 'fa-trash-restore';
+  const TRASH_RESTORE_ALT = 'fa-trash-restore-alt';
   const UNDERLINE = 'fa-underline';
   const UNDO_EDI = 'fa-undo';
   const UNDO_ALT_EDI = 'fa-undo-alt';

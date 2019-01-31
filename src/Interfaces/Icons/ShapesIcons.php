@@ -12,6 +12,7 @@ interface ShapesIcons
   const FILE_SHA = 'fa-file';
   const FOLDER_SHA = 'fa-folder';
   const HEART_SHA = 'fa-heart';
+  const HEART_BROKEN_SHA = 'fa-heart-broken';
   const MAP_MARKER_SHA = 'fa-map-marker';
   const PLAY_SHA = 'fa-play';
   const SHAPES_SHA = 'fa-shapes';

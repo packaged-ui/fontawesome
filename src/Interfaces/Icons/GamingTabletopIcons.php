@@ -7,10 +7,11 @@ interface GamingTabletopIcons
   const BOOK_DEAD = 'fa-book-dead';
   const CRITICAL_ROLE = 'fa-critical-role';
   const D_AND_D = 'fa-d-and-d';
+  const D_AND_D_BEYOND = 'fa-d-and-d-beyond';
   const DICE_D20 = 'fa-dice-d20';
   const DICE_D6 = 'fa-dice-d6';
   const DRAGON_GTI = 'fa-dragon';
-  const DUNGEON = 'fa-dungeon';
+  const DUNGEON_GTI = 'fa-dungeon';
   const FANTASY_FLIGHT_GAMES = 'fa-fantasy-flight-games';
   const FIST_RAISED = 'fa-fist-raised';
   const HAT_WIZARD = 'fa-hat-wizard';

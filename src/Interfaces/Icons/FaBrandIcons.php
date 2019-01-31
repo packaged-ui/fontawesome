@@ -8,6 +8,7 @@ interface FaBrandIcons
   const ACCUSOFT = 'fa-accusoft';
   const ACQUISITIONS_INCORPORATED_FBI = 'fa-acquisitions-incorporated';
   const ADN = 'fa-adn';
+  const ADOBE = 'fa-adobe';
   const ADVERSAL = 'fa-adversal';
   const AFFILIATETHEME = 'fa-affiliatetheme';
   const ALGOLIA = 'fa-algolia';
@@ -24,7 +25,9 @@ interface FaBrandIcons
   const APPER = 'fa-apper';
   const APPLE = 'fa-apple';
   const APPLE_PAY_FBI = 'fa-apple-pay';
+  const ARTSTATION = 'fa-artstation';
   const ASYMMETRIK = 'fa-asymmetrik';
+  const ATLASSIAN = 'fa-atlassian';
   const AUDIBLE = 'fa-audible';
   const AUTOPREFIXER = 'fa-autoprefixer';
   const AVIANEX = 'fa-avianex';
@@ -46,6 +49,7 @@ interface FaBrandIcons
   const BTC_FBI = 'fa-btc';
   const BUROMOBELEXPERTE = 'fa-buromobelexperte';
   const BUYSELLADS = 'fa-buysellads';
+  const CANADIAN_MAPLE_LEAF = 'fa-canadian-maple-leaf';
   const CC_AMAZON_PAY_FBI = 'fa-cc-amazon-pay';
   const CC_AMEX_FBI = 'fa-cc-amex';
   const CC_APPLE_PAY_FBI = 'fa-cc-apple-pay';
@@ -57,12 +61,14 @@ interface FaBrandIcons
   const CC_STRIPE_FBI = 'fa-cc-stripe';
   const CC_VISA_FBI = 'fa-cc-visa';
   const CENTERCODE = 'fa-centercode';
+  const CENTOS = 'fa-centos';
   const CHROME = 'fa-chrome';
   const CLOUDSCALE = 'fa-cloudscale';
   const CLOUDSMITH = 'fa-cloudsmith';
   const CLOUDVERSIFY = 'fa-cloudversify';
   const CODEPEN = 'fa-codepen';
   const CODIEPIE = 'fa-codiepie';
+  const CONFLUENCE = 'fa-confluence';
   const CONNECTDEVELOP = 'fa-connectdevelop';
   const CONTAO = 'fa-contao';
   const CPANEL = 'fa-cpanel';
@@ -85,12 +91,15 @@ interface FaBrandIcons
   const CSS3_ALT = 'fa-css3-alt';
   const CUTTLEFISH = 'fa-cuttlefish';
   const D_AND_D_FBI = 'fa-d-and-d';
+  const D_AND_D_BEYOND_FBI = 'fa-d-and-d-beyond';
   const DASHCUBE = 'fa-dashcube';
   const DELICIOUS = 'fa-delicious';
   const DEPLOYDOG = 'fa-deploydog';
   const DESKPRO = 'fa-deskpro';
   const DEV = 'fa-dev';
   const DEVIANTART = 'fa-deviantart';
+  const DHL = 'fa-dhl';
+  const DIASPORA = 'fa-diaspora';
   const DIGG = 'fa-digg';
   const DIGITAL_OCEAN = 'fa-digital-ocean';
   const DISCORD = 'fa-discord';
@@ -120,6 +129,9 @@ interface FaBrandIcons
   const FACEBOOK_MESSENGER = 'fa-facebook-messenger';
   const FACEBOOK_SQUARE = 'fa-facebook-square';
   const FANTASY_FLIGHT_GAMES_FBI = 'fa-fantasy-flight-games';
+  const FEDEX = 'fa-fedex';
+  const FEDORA = 'fa-fedora';
+  const FIGMA = 'fa-figma';
   const FIREFOX = 'fa-firefox';
   const FIRST_ORDER = 'fa-first-order';
   const FIRST_ORDER_ALT = 'fa-first-order-alt';
@@ -183,13 +195,16 @@ interface FaBrandIcons
   const HUBSPOT = 'fa-hubspot';
   const IMDB = 'fa-imdb';
   const INSTAGRAM = 'fa-instagram';
+  const INTERCOM = 'fa-intercom';
   const INTERNET_EXPLORER = 'fa-internet-explorer';
+  const INVISION = 'fa-invision';
   const IOXHOST = 'fa-ioxhost';
   const ITUNES = 'fa-itunes';
   const ITUNES_NOTE = 'fa-itunes-note';
   const JAVA = 'fa-java';
   const JEDI_ORDER = 'fa-jedi-order';
   const JENKINS = 'fa-jenkins';
+  const JIRA = 'fa-jira';
   const JOGET = 'fa-joget';
   const JOOMLA = 'fa-joomla';
   const JS = 'fa-js';
@@ -224,6 +239,7 @@ interface FaBrandIcons
   const MEDRT = 'fa-medrt';
   const MEETUP = 'fa-meetup';
   const MEGAPORT = 'fa-megaport';
+  const MENDELEY = 'fa-mendeley';
   const MICROSOFT = 'fa-microsoft';
   const MIX = 'fa-mix';
   const MIXCLOUD = 'fa-mixcloud';
@@ -273,15 +289,17 @@ interface FaBrandIcons
   const QUINSCAPE = 'fa-quinscape';
   const QUORA = 'fa-quora';
   const R_PROJECT = 'fa-r-project';
+  const RASPBERRY_PI = 'fa-raspberry-pi';
   const RAVELRY = 'fa-ravelry';
   const REACT = 'fa-react';
+  const REACTEUROPE = 'fa-reacteurope';
   const README = 'fa-readme';
   const REBEL = 'fa-rebel';
   const RED_RIVER = 'fa-red-river';
   const REDDIT = 'fa-reddit';
   const REDDIT_ALIEN = 'fa-reddit-alien';
   const REDDIT_SQUARE = 'fa-reddit-square';
-  const RENDACT = 'fa-rendact';
+  const REDHAT = 'fa-redhat';
   const RENREN = 'fa-renren';
   const REPLYD = 'fa-replyd';
   const RESEARCHGATE = 'fa-researchgate';
@@ -302,6 +320,7 @@ interface FaBrandIcons
   const SIMPLYBUILT = 'fa-simplybuilt';
   const SISTRIX = 'fa-sistrix';
   const SITH = 'fa-sith';
+  const SKETCH = 'fa-sketch';
   const SKYATLAS = 'fa-skyatlas';
   const SKYPE = 'fa-skype';
   const SLACK = 'fa-slack';
@@ -311,6 +330,7 @@ interface FaBrandIcons
   const SNAPCHAT_GHOST = 'fa-snapchat-ghost';
   const SNAPCHAT_SQUARE = 'fa-snapchat-square';
   const SOUNDCLOUD = 'fa-soundcloud';
+  const SOURCETREE = 'fa-sourcetree';
   const SPEAKAP = 'fa-speakap';
   const SPOTIFY = 'fa-spotify';
   const SQUARESPACE = 'fa-squarespace';
@@ -329,6 +349,7 @@ interface FaBrandIcons
   const STUMBLEUPON_CIRCLE = 'fa-stumbleupon-circle';
   const SUPERPOWERS = 'fa-superpowers';
   const SUPPLE = 'fa-supple';
+  const SUSE = 'fa-suse';
   const TEAMSPEAK = 'fa-teamspeak';
   const TELEGRAM = 'fa-telegram';
   const TELEGRAM_PLANE = 'fa-telegram-plane';
@@ -336,6 +357,7 @@ interface FaBrandIcons
   const THE_RED_YETI = 'fa-the-red-yeti';
   const THEMECO = 'fa-themeco';
   const THEMEISLE = 'fa-themeisle';
+  const THINK_PEAKS = 'fa-think-peaks';
   const TRADE_FEDERATION = 'fa-trade-federation';
   const TRELLO = 'fa-trello';
   const TRIPADVISOR = 'fa-tripadvisor';
@@ -346,10 +368,13 @@ interface FaBrandIcons
   const TWITTER_SQUARE = 'fa-twitter-square';
   const TYPO3 = 'fa-typo3';
   const UBER = 'fa-uber';
+  const UBUNTU = 'fa-ubuntu';
   const UIKIT = 'fa-uikit';
   const UNIREGISTRY = 'fa-uniregistry';
   const UNTAPPD = 'fa-untappd';
+  const UPS = 'fa-ups';
   const USB = 'fa-usb';
+  const USPS = 'fa-usps';
   const USSUNNAH = 'fa-ussunnah';
   const VAADIN = 'fa-vaadin';
   const VIACOIN = 'fa-viacoin';
@@ -379,6 +404,7 @@ interface FaBrandIcons
   const WPBEGINNER = 'fa-wpbeginner';
   const WPEXPLORER = 'fa-wpexplorer';
   const WPFORMS = 'fa-wpforms';
+  const WPRESSR = 'fa-wpressr';
   const XBOX = 'fa-xbox';
   const XING = 'fa-xing';
   const XING_SQUARE = 'fa-xing-square';
@@ -386,11 +412,12 @@ interface FaBrandIcons
   const YAHOO = 'fa-yahoo';
   const YANDEX = 'fa-yandex';
   const YANDEX_INTERNATIONAL = 'fa-yandex-international';
+  const YARN = 'fa-yarn';
   const YELP = 'fa-yelp';
   const YOAST = 'fa-yoast';
   const YOUTUBE_FBI = 'fa-youtube';
   const YOUTUBE_SQUARE = 'fa-youtube-square';
   const ZHIHU = 'fa-zhihu';
 
-  const __BRAND_ICONS = ['fa-500px','fa-accessible-icon','fa-accusoft','fa-acquisitions-incorporated','fa-adn','fa-adversal','fa-affiliatetheme','fa-algolia','fa-alipay','fa-amazon','fa-amazon-pay','fa-amilia','fa-android','fa-angellist','fa-angrycreative','fa-angular','fa-app-store','fa-app-store-ios','fa-apper','fa-apple','fa-apple-pay','fa-asymmetrik','fa-audible','fa-autoprefixer','fa-avianex','fa-aviato','fa-aws','fa-bandcamp','fa-behance','fa-behance-square','fa-bimobject','fa-bitbucket','fa-bitcoin','fa-bity','fa-black-tie','fa-blackberry','fa-blogger','fa-blogger-b','fa-bluetooth','fa-bluetooth-b','fa-btc','fa-buromobelexperte','fa-buysellads','fa-cc-amazon-pay','fa-cc-amex','fa-cc-apple-pay','fa-cc-diners-club','fa-cc-discover','fa-cc-jcb','fa-cc-mastercard','fa-cc-paypal','fa-cc-stripe','fa-cc-visa','fa-centercode','fa-chrome','fa-cloudscale','fa-cloudsmith','fa-cloudversify','fa-codepen','fa-codiepie','fa-connectdevelop','fa-contao','fa-cpanel','fa-creative-commons','fa-creative-commons-by','fa-creative-commons-nc','fa-creative-commons-nc-eu','fa-creative-commons-nc-jp','fa-creative-commons-nd','fa-creative-commons-pd','fa-creative-commons-pd-alt','fa-creative-commons-remix','fa-creative-commons-sa','fa-creative-commons-sampling','fa-creative-commons-sampling-plus','fa-creative-commons-share','fa-creative-commons-zero','fa-critical-role','fa-css3','fa-css3-alt','fa-cuttlefish','fa-d-and-d','fa-dashcube','fa-delicious','fa-deploydog','fa-deskpro','fa-dev','fa-deviantart','fa-digg','fa-digital-ocean','fa-discord','fa-discourse','fa-dochub','fa-docker','fa-draft2digital','fa-dribbble','fa-dribbble-square','fa-dropbox','fa-drupal','fa-dyalog','fa-earlybirds','fa-ebay','fa-edge','fa-elementor','fa-ello','fa-ember','fa-empire','fa-envira','fa-erlang','fa-ethereum','fa-etsy','fa-expeditedssl','fa-facebook','fa-facebook-f','fa-facebook-messenger','fa-facebook-square','fa-fantasy-flight-games','fa-firefox','fa-first-order','fa-first-order-alt','fa-firstdraft','fa-flickr','fa-flipboard','fa-fly','fa-font-awesome','fa-font-awesome-alt','fa-font-awesome-flag','fa-font-awesome-logo-full','fa-fonticons','fa-fonticons-fi','fa-fort-awesome','fa-fort-awesome-alt','fa-forumbee','fa-foursquare','fa-free-code-camp','fa-freebsd','fa-fulcrum','fa-galactic-republic','fa-galactic-senate','fa-get-pocket','fa-gg','fa-gg-circle','fa-git','fa-git-square','fa-github','fa-github-alt','fa-github-square','fa-gitkraken','fa-gitlab','fa-gitter','fa-glide','fa-glide-g','fa-gofore','fa-goodreads','fa-goodreads-g','fa-google','fa-google-drive','fa-google-play','fa-google-plus','fa-google-plus-g','fa-google-plus-square','fa-google-wallet','fa-gratipay','fa-grav','fa-gripfire','fa-grunt','fa-gulp','fa-hacker-news','fa-hacker-news-square','fa-hackerrank','fa-hips','fa-hire-a-helper','fa-hooli','fa-hornbill','fa-hotjar','fa-houzz','fa-html5','fa-hubspot','fa-imdb','fa-instagram','fa-internet-explorer','fa-ioxhost','fa-itunes','fa-itunes-note','fa-java','fa-jedi-order','fa-jenkins','fa-joget','fa-joomla','fa-js','fa-js-square','fa-jsfiddle','fa-kaggle','fa-keybase','fa-keycdn','fa-kickstarter','fa-kickstarter-k','fa-korvue','fa-laravel','fa-lastfm','fa-lastfm-square','fa-leanpub','fa-less','fa-line','fa-linkedin','fa-linkedin-in','fa-linode','fa-linux','fa-lyft','fa-magento','fa-mailchimp','fa-mandalorian','fa-markdown','fa-mastodon','fa-maxcdn','fa-medapps','fa-medium','fa-medium-m','fa-medrt','fa-meetup','fa-megaport','fa-microsoft','fa-mix','fa-mixcloud','fa-mizuni','fa-modx','fa-monero','fa-napster','fa-neos','fa-nimblr','fa-nintendo-switch','fa-node','fa-node-js','fa-npm','fa-ns8','fa-nutritionix','fa-odnoklassniki','fa-odnoklassniki-square','fa-old-republic','fa-opencart','fa-openid','fa-opera','fa-optin-monster','fa-osi','fa-page4','fa-pagelines','fa-palfed','fa-patreon','fa-paypal','fa-penny-arcade','fa-periscope','fa-phabricator','fa-phoenix-framework','fa-phoenix-squadron','fa-php','fa-pied-piper','fa-pied-piper-alt','fa-pied-piper-hat','fa-pied-piper-pp','fa-pinterest','fa-pinterest-p','fa-pinterest-square','fa-playstation','fa-product-hunt','fa-pushed','fa-python','fa-qq','fa-quinscape','fa-quora','fa-r-project','fa-ravelry','fa-react','fa-readme','fa-rebel','fa-red-river','fa-reddit','fa-reddit-alien','fa-reddit-square','fa-rendact','fa-renren','fa-replyd','fa-researchgate','fa-resolving','fa-rev','fa-rocketchat','fa-rockrms','fa-safari','fa-sass','fa-schlix','fa-scribd','fa-searchengin','fa-sellcast','fa-sellsy','fa-servicestack','fa-shirtsinbulk','fa-shopware','fa-simplybuilt','fa-sistrix','fa-sith','fa-skyatlas','fa-skype','fa-slack','fa-slack-hash','fa-slideshare','fa-snapchat','fa-snapchat-ghost','fa-snapchat-square','fa-soundcloud','fa-speakap','fa-spotify','fa-squarespace','fa-stack-exchange','fa-stack-overflow','fa-staylinked','fa-steam','fa-steam-square','fa-steam-symbol','fa-sticker-mule','fa-strava','fa-stripe','fa-stripe-s','fa-studiovinari','fa-stumbleupon','fa-stumbleupon-circle','fa-superpowers','fa-supple','fa-teamspeak','fa-telegram','fa-telegram-plane','fa-tencent-weibo','fa-the-red-yeti','fa-themeco','fa-themeisle','fa-trade-federation','fa-trello','fa-tripadvisor','fa-tumblr','fa-tumblr-square','fa-twitch','fa-twitter','fa-twitter-square','fa-typo3','fa-uber','fa-uikit','fa-uniregistry','fa-untappd','fa-usb','fa-ussunnah','fa-vaadin','fa-viacoin','fa-viadeo','fa-viadeo-square','fa-viber','fa-vimeo','fa-vimeo-square','fa-vimeo-v','fa-vine','fa-vk','fa-vnv','fa-vuejs','fa-weebly','fa-weibo','fa-weixin','fa-whatsapp','fa-whatsapp-square','fa-whmcs','fa-wikipedia-w','fa-windows','fa-wix','fa-wizards-of-the-coast','fa-wolf-pack-battalion','fa-wordpress','fa-wordpress-simple','fa-wpbeginner','fa-wpexplorer','fa-wpforms','fa-xbox','fa-xing','fa-xing-square','fa-y-combinator','fa-yahoo','fa-yandex','fa-yandex-international','fa-yelp','fa-yoast','fa-youtube','fa-youtube-square','fa-zhihu'];
+  const __BRAND_ICONS = ['fa-500px','fa-accessible-icon','fa-accusoft','fa-acquisitions-incorporated','fa-adn','fa-adobe','fa-adversal','fa-affiliatetheme','fa-algolia','fa-alipay','fa-amazon','fa-amazon-pay','fa-amilia','fa-android','fa-angellist','fa-angrycreative','fa-angular','fa-app-store','fa-app-store-ios','fa-apper','fa-apple','fa-apple-pay','fa-artstation','fa-asymmetrik','fa-atlassian','fa-audible','fa-autoprefixer','fa-avianex','fa-aviato','fa-aws','fa-bandcamp','fa-behance','fa-behance-square','fa-bimobject','fa-bitbucket','fa-bitcoin','fa-bity','fa-black-tie','fa-blackberry','fa-blogger','fa-blogger-b','fa-bluetooth','fa-bluetooth-b','fa-btc','fa-buromobelexperte','fa-buysellads','fa-canadian-maple-leaf','fa-cc-amazon-pay','fa-cc-amex','fa-cc-apple-pay','fa-cc-diners-club','fa-cc-discover','fa-cc-jcb','fa-cc-mastercard','fa-cc-paypal','fa-cc-stripe','fa-cc-visa','fa-centercode','fa-centos','fa-chrome','fa-cloudscale','fa-cloudsmith','fa-cloudversify','fa-codepen','fa-codiepie','fa-confluence','fa-connectdevelop','fa-contao','fa-cpanel','fa-creative-commons','fa-creative-commons-by','fa-creative-commons-nc','fa-creative-commons-nc-eu','fa-creative-commons-nc-jp','fa-creative-commons-nd','fa-creative-commons-pd','fa-creative-commons-pd-alt','fa-creative-commons-remix','fa-creative-commons-sa','fa-creative-commons-sampling','fa-creative-commons-sampling-plus','fa-creative-commons-share','fa-creative-commons-zero','fa-critical-role','fa-css3','fa-css3-alt','fa-cuttlefish','fa-d-and-d','fa-d-and-d-beyond','fa-dashcube','fa-delicious','fa-deploydog','fa-deskpro','fa-dev','fa-deviantart','fa-dhl','fa-diaspora','fa-digg','fa-digital-ocean','fa-discord','fa-discourse','fa-dochub','fa-docker','fa-draft2digital','fa-dribbble','fa-dribbble-square','fa-dropbox','fa-drupal','fa-dyalog','fa-earlybirds','fa-ebay','fa-edge','fa-elementor','fa-ello','fa-ember','fa-empire','fa-envira','fa-erlang','fa-ethereum','fa-etsy','fa-expeditedssl','fa-facebook','fa-facebook-f','fa-facebook-messenger','fa-facebook-square','fa-fantasy-flight-games','fa-fedex','fa-fedora','fa-figma','fa-firefox','fa-first-order','fa-first-order-alt','fa-firstdraft','fa-flickr','fa-flipboard','fa-fly','fa-font-awesome','fa-font-awesome-alt','fa-font-awesome-flag','fa-font-awesome-logo-full','fa-fonticons','fa-fonticons-fi','fa-fort-awesome','fa-fort-awesome-alt','fa-forumbee','fa-foursquare','fa-free-code-camp','fa-freebsd','fa-fulcrum','fa-galactic-republic','fa-galactic-senate','fa-get-pocket','fa-gg','fa-gg-circle','fa-git','fa-git-square','fa-github','fa-github-alt','fa-github-square','fa-gitkraken','fa-gitlab','fa-gitter','fa-glide','fa-glide-g','fa-gofore','fa-goodreads','fa-goodreads-g','fa-google','fa-google-drive','fa-google-play','fa-google-plus','fa-google-plus-g','fa-google-plus-square','fa-google-wallet','fa-gratipay','fa-grav','fa-gripfire','fa-grunt','fa-gulp','fa-hacker-news','fa-hacker-news-square','fa-hackerrank','fa-hips','fa-hire-a-helper','fa-hooli','fa-hornbill','fa-hotjar','fa-houzz','fa-html5','fa-hubspot','fa-imdb','fa-instagram','fa-intercom','fa-internet-explorer','fa-invision','fa-ioxhost','fa-itunes','fa-itunes-note','fa-java','fa-jedi-order','fa-jenkins','fa-jira','fa-joget','fa-joomla','fa-js','fa-js-square','fa-jsfiddle','fa-kaggle','fa-keybase','fa-keycdn','fa-kickstarter','fa-kickstarter-k','fa-korvue','fa-laravel','fa-lastfm','fa-lastfm-square','fa-leanpub','fa-less','fa-line','fa-linkedin','fa-linkedin-in','fa-linode','fa-linux','fa-lyft','fa-magento','fa-mailchimp','fa-mandalorian','fa-markdown','fa-mastodon','fa-maxcdn','fa-medapps','fa-medium','fa-medium-m','fa-medrt','fa-meetup','fa-megaport','fa-mendeley','fa-microsoft','fa-mix','fa-mixcloud','fa-mizuni','fa-modx','fa-monero','fa-napster','fa-neos','fa-nimblr','fa-nintendo-switch','fa-node','fa-node-js','fa-npm','fa-ns8','fa-nutritionix','fa-odnoklassniki','fa-odnoklassniki-square','fa-old-republic','fa-opencart','fa-openid','fa-opera','fa-optin-monster','fa-osi','fa-page4','fa-pagelines','fa-palfed','fa-patreon','fa-paypal','fa-penny-arcade','fa-periscope','fa-phabricator','fa-phoenix-framework','fa-phoenix-squadron','fa-php','fa-pied-piper','fa-pied-piper-alt','fa-pied-piper-hat','fa-pied-piper-pp','fa-pinterest','fa-pinterest-p','fa-pinterest-square','fa-playstation','fa-product-hunt','fa-pushed','fa-python','fa-qq','fa-quinscape','fa-quora','fa-r-project','fa-raspberry-pi','fa-ravelry','fa-react','fa-reacteurope','fa-readme','fa-rebel','fa-red-river','fa-reddit','fa-reddit-alien','fa-reddit-square','fa-redhat','fa-renren','fa-replyd','fa-researchgate','fa-resolving','fa-rev','fa-rocketchat','fa-rockrms','fa-safari','fa-sass','fa-schlix','fa-scribd','fa-searchengin','fa-sellcast','fa-sellsy','fa-servicestack','fa-shirtsinbulk','fa-shopware','fa-simplybuilt','fa-sistrix','fa-sith','fa-sketch','fa-skyatlas','fa-skype','fa-slack','fa-slack-hash','fa-slideshare','fa-snapchat','fa-snapchat-ghost','fa-snapchat-square','fa-soundcloud','fa-sourcetree','fa-speakap','fa-spotify','fa-squarespace','fa-stack-exchange','fa-stack-overflow','fa-staylinked','fa-steam','fa-steam-square','fa-steam-symbol','fa-sticker-mule','fa-strava','fa-stripe','fa-stripe-s','fa-studiovinari','fa-stumbleupon','fa-stumbleupon-circle','fa-superpowers','fa-supple','fa-suse','fa-teamspeak','fa-telegram','fa-telegram-plane','fa-tencent-weibo','fa-the-red-yeti','fa-themeco','fa-themeisle','fa-think-peaks','fa-trade-federation','fa-trello','fa-tripadvisor','fa-tumblr','fa-tumblr-square','fa-twitch','fa-twitter','fa-twitter-square','fa-typo3','fa-uber','fa-ubuntu','fa-uikit','fa-uniregistry','fa-untappd','fa-ups','fa-usb','fa-usps','fa-ussunnah','fa-vaadin','fa-viacoin','fa-viadeo','fa-viadeo-square','fa-viber','fa-vimeo','fa-vimeo-square','fa-vimeo-v','fa-vine','fa-vk','fa-vnv','fa-vuejs','fa-weebly','fa-weibo','fa-weixin','fa-whatsapp','fa-whatsapp-square','fa-whmcs','fa-wikipedia-w','fa-windows','fa-wix','fa-wizards-of-the-coast','fa-wolf-pack-battalion','fa-wordpress','fa-wordpress-simple','fa-wpbeginner','fa-wpexplorer','fa-wpforms','fa-wpressr','fa-xbox','fa-xing','fa-xing-square','fa-y-combinator','fa-yahoo','fa-yandex','fa-yandex-international','fa-yarn','fa-yelp','fa-yoast','fa-youtube','fa-youtube-square','fa-zhihu'];
 }

@@ -12,6 +12,10 @@ interface SportsIcons
   const GOLF_BALL = 'fa-golf-ball';
   const HOCKEY_PUCK = 'fa-hockey-puck';
   const QUIDDITCH = 'fa-quidditch';
+  const SKATING = 'fa-skating';
+  const SKIING = 'fa-skiing';
+  const SKIING_NORDIC = 'fa-skiing-nordic';
+  const SNOWBOARDING = 'fa-snowboarding';
   const TABLE_TENNIS = 'fa-table-tennis';
   const VOLLEYBALL_BALL = 'fa-volleyball-ball';
 }

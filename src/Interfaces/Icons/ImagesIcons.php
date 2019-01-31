@@ -10,6 +10,7 @@ interface ImagesIcons
   const CHALKBOARD_IMA = 'fa-chalkboard';
   const _CLONE_IMA = 'fa-clone';
   const COMPRESS_IMA = 'fa-compress';
+  const COMPRESS_ARROWS_ALT_IMA = 'fa-compress-arrows-alt';
   const EXPAND_IMA = 'fa-expand';
   const EYE_IMA = 'fa-eye';
   const EYE_DROPPER_IMA = 'fa-eye-dropper';

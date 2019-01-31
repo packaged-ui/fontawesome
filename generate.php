@@ -3,10 +3,10 @@ require_once 'vendor/autoload.php';
 
 use Symfony\Component\Yaml\Yaml;
 
-$url = 'vendor/fortawesome/font-awesome/advanced-options/metadata/categories.yml';
+$url = 'vendor/fortawesome/font-awesome/metadata/categories.yml';
 $yaml = Yaml::parse(file_get_contents($url));
 
-$url = 'vendor/fortawesome/font-awesome/advanced-options/metadata/icons.yml';
+$url = 'vendor/fortawesome/font-awesome/metadata/icons.yml';
 $iconsYaml = Yaml::parse(file_get_contents($url));
 
 $brandIcons = $miscIcons = [];

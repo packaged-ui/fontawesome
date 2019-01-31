@@ -10,6 +10,7 @@ interface InterfacesIcons
   const BEER = 'fa-beer';
   const BELL_INT = 'fa-bell';
   const BELL_SLASH_INT = 'fa-bell-slash';
+  const BLOG = 'fa-blog';
   const BUG_INT = 'fa-bug';
   const BULLHORN_INT = 'fa-bullhorn';
   const BULLSEYE_INT = 'fa-bullseye';
@@ -67,6 +68,8 @@ interface InterfacesIcons
   const FROWN_INT = 'fa-frown';
   const GLASSES_INT = 'fa-glasses';
   const GRIP_HORIZONTAL = 'fa-grip-horizontal';
+  const GRIP_LINES = 'fa-grip-lines';
+  const GRIP_LINES_VERTICAL = 'fa-grip-lines-vertical';
   const GRIP_VERTICAL = 'fa-grip-vertical';
   const HASHTAG = 'fa-hashtag';
   const HEART_INT = 'fa-heart';
@@ -141,8 +144,11 @@ interface InterfacesIcons
   const TIMES_CIRCLE = 'fa-times-circle';
   const TOGGLE_OFF = 'fa-toggle-off';
   const TOGGLE_ON = 'fa-toggle-on';
+  const TOOLS_INT = 'fa-tools';
   const TRASH_INT = 'fa-trash';
   const TRASH_ALT_INT = 'fa-trash-alt';
+  const TRASH_RESTORE_INT = 'fa-trash-restore';
+  const TRASH_RESTORE_ALT_INT = 'fa-trash-restore-alt';
   const TROPHY = 'fa-trophy';
   const UNDO_INT = 'fa-undo';
   const UNDO_ALT_INT = 'fa-undo-alt';

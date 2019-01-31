@@ -30,6 +30,7 @@ interface MapsIcons
   const EYE_SLASH_MAP = 'fa-eye-slash';
   const FIGHTER_JET = 'fa-fighter-jet';
   const FIRE = 'fa-fire';
+  const FIRE_ALT = 'fa-fire-alt';
   const FIRE_EXTINGUISHER_MAP = 'fa-fire-extinguisher';
   const FLAG_MAP = 'fa-flag';
   const FLAG_CHECKERED_MAP = 'fa-flag-checkered';
@@ -55,7 +56,7 @@ interface MapsIcons
   const LANDMARK_MAP = 'fa-landmark';
   const LAYER_GROUP_MAP = 'fa-layer-group';
   const LEAF_MAP = 'fa-leaf';
-  const LEMON = 'fa-lemon';
+  const LEMON_MAP = 'fa-lemon';
   const LIFE_RING = 'fa-life-ring';
   const LIGHTBULB = 'fa-lightbulb';
   const LOCATION_ARROW_MAP = 'fa-location-arrow';
@@ -84,6 +85,7 @@ interface MapsIcons
   const PLUS_SQUARE_MAP = 'fa-plus-square';
   const _PRINT_MAP = 'fa-print';
   const RECYCLE_MAP = 'fa-recycle';
+  const RESTROOM = 'fa-restroom';
   const ROAD = 'fa-road';
   const ROCKET = 'fa-rocket';
   const ROUTE = 'fa-route';
@@ -96,6 +98,7 @@ interface MapsIcons
   const SHOPPING_BASKET = 'fa-shopping-basket';
   const SHOPPING_CART = 'fa-shopping-cart';
   const SHOWER = 'fa-shower';
+  const SNOWPLOW = 'fa-snowplow';
   const STREET_VIEW = 'fa-street-view';
   const SUBWAY = 'fa-subway';
   const SUITCASE = 'fa-suitcase';
@@ -107,6 +110,7 @@ interface MapsIcons
   const TINT_MAP = 'fa-tint';
   const TRAFFIC_LIGHT = 'fa-traffic-light';
   const TRAIN = 'fa-train';
+  const TRAM = 'fa-tram';
   const TREE_MAP = 'fa-tree';
   const TROPHY_MAP = 'fa-trophy';
   const TRUCK_MAP = 'fa-truck';

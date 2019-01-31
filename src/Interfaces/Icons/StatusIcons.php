@@ -14,9 +14,11 @@ interface StatusIcons
   const CALENDAR_STA = 'fa-calendar';
   const CALENDAR_ALT_STA = 'fa-calendar-alt';
   const CALENDAR_CHECK_STA = 'fa-calendar-check';
+  const CALENDAR_DAY = 'fa-calendar-day';
   const CALENDAR_MINUS_STA = 'fa-calendar-minus';
   const CALENDAR_PLUS_STA = 'fa-calendar-plus';
   const CALENDAR_TIMES_STA = 'fa-calendar-times';
+  const CALENDAR_WEEK = 'fa-calendar-week';
   const CART_ARROW_DOWN_STA = 'fa-cart-arrow-down';
   const CART_PLUS_STA = 'fa-cart-plus';
   const COMMENT_STA = 'fa-comment';

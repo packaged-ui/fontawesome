@@ -6,6 +6,7 @@ interface ChatIcons
   const COMMENT = 'fa-comment';
   const COMMENT_ALT = 'fa-comment-alt';
   const COMMENT_DOTS = 'fa-comment-dots';
+  const COMMENT_MEDICAL = 'fa-comment-medical';
   const COMMENT_SLASH = 'fa-comment-slash';
   const COMMENTS = 'fa-comments';
   const FROWN = 'fa-frown';
@@ -16,6 +17,7 @@ interface ChatIcons
   const QUOTE_LEFT = 'fa-quote-left';
   const QUOTE_RIGHT = 'fa-quote-right';
   const SMILE = 'fa-smile';
+  const SMS = 'fa-sms';
   const VIDEO_CHA = 'fa-video';
   const VIDEO_SLASH = 'fa-video-slash';
 }

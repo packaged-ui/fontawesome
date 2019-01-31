@@ -16,8 +16,9 @@ interface TravelIcons
   const GLOBE_AFRICA = 'fa-globe-africa';
   const GLOBE_AMERICAS = 'fa-globe-americas';
   const GLOBE_ASIA = 'fa-globe-asia';
+  const GLOBE_EUROPE = 'fa-globe-europe';
   const HOT_TUB = 'fa-hot-tub';
-  const HOTEL = 'fa-hotel';
+  const HOTEL_TRA = 'fa-hotel';
   const LUGGAGE_CART = 'fa-luggage-cart';
   const MAP_TRA = 'fa-map';
   const MAP_MARKED = 'fa-map-marked';
@@ -34,6 +35,7 @@ interface TravelIcons
   const SWIMMER = 'fa-swimmer';
   const SWIMMING_POOL = 'fa-swimming-pool';
   const TAXI_TRA = 'fa-taxi';
+  const TRAM_TRA = 'fa-tram';
   const UMBRELLA_BEACH = 'fa-umbrella-beach';
   const WINE_GLASS_TRA = 'fa-wine-glass';
   const WINE_GLASS_ALT = 'fa-wine-glass-alt';

@@ -46,6 +46,7 @@ interface ArrowsIcons
   const CHEVRON_UP = 'fa-chevron-up';
   const CLOUD_DOWNLOAD_ALT = 'fa-cloud-download-alt';
   const CLOUD_UPLOAD_ALT = 'fa-cloud-upload-alt';
+  const COMPRESS_ARROWS_ALT = 'fa-compress-arrows-alt';
   const DOWNLOAD = 'fa-download';
   const EXCHANGE_ALT = 'fa-exchange-alt';
   const EXPAND_ARROWS_ALT = 'fa-expand-arrows-alt';

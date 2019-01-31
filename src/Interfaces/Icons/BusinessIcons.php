@@ -22,7 +22,7 @@ interface BusinessIcons
   const CHART_BAR = 'fa-chart-bar';
   const CHART_LINE_BUS = 'fa-chart-line';
   const CHART_PIE = 'fa-chart-pie';
-  const CITY = 'fa-city';
+  const CITY_BUS = 'fa-city';
   const CLIPBOARD = 'fa-clipboard';
   const COFFEE = 'fa-coffee';
   const COLUMNS = 'fa-columns';
@@ -46,7 +46,7 @@ interface BusinessIcons
   const GLOBE = 'fa-globe';
   const HIGHLIGHTER = 'fa-highlighter';
   const INDUSTRY_BUS = 'fa-industry';
-  const LANDMARK = 'fa-landmark';
+  const LANDMARK_BUS = 'fa-landmark';
   const MARKER = 'fa-marker';
   const PAPERCLIP = 'fa-paperclip';
   const PASTE = 'fa-paste';

@@ -4,6 +4,7 @@ namespace Fortifi\FontAwesome\Interfaces\Icons;
 interface WritingIcons
 {
   const ARCHIVE_WRI = 'fa-archive';
+  const BLOG_WRI = 'fa-blog';
   const BOOK_WRI = 'fa-book';
   const BOOKMARK_WRI = 'fa-bookmark';
   const EDIT_WRI = 'fa-edit';

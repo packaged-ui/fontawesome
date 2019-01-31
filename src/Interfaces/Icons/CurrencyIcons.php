@@ -22,6 +22,7 @@ interface CurrencyIcons
   const RUBLE_SIGN = 'fa-ruble-sign';
   const RUPEE_SIGN = 'fa-rupee-sign';
   const SHEKEL_SIGN = 'fa-shekel-sign';
+  const TENGE = 'fa-tenge';
   const WON_SIGN = 'fa-won-sign';
   const YEN_SIGN = 'fa-yen-sign';
 }

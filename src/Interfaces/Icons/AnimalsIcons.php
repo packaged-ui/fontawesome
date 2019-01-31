@@ -14,6 +14,7 @@ interface AnimalsIcons
   const FROG = 'fa-frog';
   const HIPPO = 'fa-hippo';
   const HORSE = 'fa-horse';
+  const HORSE_HEAD = 'fa-horse-head';
   const KIWI_BIRD = 'fa-kiwi-bird';
   const OTTER = 'fa-otter';
   const PAW = 'fa-paw';
