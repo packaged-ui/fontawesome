@@ -113,8 +113,11 @@ function iconsLoop($class, $icons, &$usedIcons, &$reservedWords)
       }
       $constName .= '_' . $acro;
     }
-    $usedIcons[$constName] = $icon;
-    $return .= "  const " . $constName . ' = \'fa-' . $icon . '\';' . PHP_EOL;
+    if(!isset($usedIcons[$constName]))
+    {
+      $usedIcons[$constName] = $icon;
+      $return .= "  const " . $constName . ' = \'fa-' . $icon . '\';' . PHP_EOL;
+    }
   }
 
   return $return;
