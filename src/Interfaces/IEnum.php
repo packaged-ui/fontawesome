@@ -1,5 +1,5 @@
 <?php
-namespace Fortifi\FontAwesome\Interfaces;
+namespace PackagedUi\FontAwesome\Interfaces;
 
 interface IEnum
 {

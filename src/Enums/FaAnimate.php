@@ -1,5 +1,5 @@
 <?php
-namespace Fortifi\FontAwesome\Enums;
+namespace PackagedUi\FontAwesome\Enums;
 
 class FaAnimate extends FaEnum
 {

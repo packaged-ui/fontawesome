@@ -1,7 +1,7 @@
 <?php
-namespace Fortifi\Tests\FontAwesome;
+namespace PackagedUi\Tests\FontAwesome;
 
-use Fortifi\FontAwesome\FaIcon;
+use PackagedUi\FontAwesome\FaIcon;
 use Packaged\Glimpse\Core\HtmlTag;
 use Packaged\SafeHtml\SafeHtml;
 use PHPUnit\Framework\TestCase;
@@ -28,12 +28,6 @@ class IconsTest extends TestCase
     $this->assertTrue(
       $icon instanceof FaIcon
     );
-  }
-
-  public function testAliasIcons()
-  {
-    $icon = FaIcon::create('fa-y-combinator-square');
-    $this->assertTrue($icon->hasClass(FaIcon::HACKER_NEWS));
   }
 
   public function testIsSpan()

@@ -1,8 +1,8 @@
 <?php
-namespace Fortifi\FontAwesome\Enums;
+namespace PackagedUi\FontAwesome\Enums;
 
 use Exception;
-use Fortifi\FontAwesome\Interfaces\IEnum;
+use PackagedUi\FontAwesome\Interfaces\IEnum;
 
 abstract class FaEnum implements IEnum
 {

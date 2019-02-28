@@ -1,8 +1,8 @@
 <?php
-namespace Fortifi\Tests\FontAwesome;
+namespace PackagedUi\Tests\FontAwesome;
 
-use Fortifi\FontAwesome\Enums\FaPull;
-use Fortifi\FontAwesome\FaIcon;
+use PackagedUi\FontAwesome\Enums\FaPull;
+use PackagedUi\FontAwesome\FaIcon;
 use PHPUnit\Framework\TestCase;
 
 class IconsPullTest extends TestCase

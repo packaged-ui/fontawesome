@@ -1,5 +1,5 @@
 {
-  "name": "fortifi/fontawesome",
+  "name": "packaged-ui/fontawesome",
   "description": "Fontawesome icon creation helper",
   "license": "MIT",
   "require": {
@@ -15,8 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Fortifi\\FontAwesome\\": "src/",
-      "Fortifi\\Tests\\FontAwesome\\": "tests/"
+      "PackagedUi\\FontAwesome\\": "src/",
+      "PackagedUi\\Tests\\FontAwesome\\": "tests/"
     }
   },
   "repositories": [

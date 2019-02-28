@@ -1,16 +1,16 @@
 <?php
-namespace Fortifi\FontAwesome;
+namespace PackagedUi\FontAwesome;
 
 use Exception;
-use Fortifi\FontAwesome\Enums\FaAnimate;
-use Fortifi\FontAwesome\Enums\FaEnum;
-use Fortifi\FontAwesome\Enums\FaPull;
-use Fortifi\FontAwesome\Enums\FaRotate;
-use Fortifi\FontAwesome\Enums\FaSizes;
-use Fortifi\FontAwesome\Enums\FaStyle;
-use Fortifi\FontAwesome\Enums\FaTransforms;
-use Fortifi\FontAwesome\Interfaces\Icons\FaBrandIcons;
-use Fortifi\FontAwesome\Interfaces\Icons\FaIcons;
+use PackagedUi\FontAwesome\Enums\FaAnimate;
+use PackagedUi\FontAwesome\Enums\FaEnum;
+use PackagedUi\FontAwesome\Enums\FaPull;
+use PackagedUi\FontAwesome\Enums\FaRotate;
+use PackagedUi\FontAwesome\Enums\FaSizes;
+use PackagedUi\FontAwesome\Enums\FaStyle;
+use PackagedUi\FontAwesome\Enums\FaTransforms;
+use PackagedUi\FontAwesome\Interfaces\Icons\FaBrandIcons;
+use PackagedUi\FontAwesome\Interfaces\Icons\FaIcons;
 use Packaged\Glimpse\Core\HtmlTag;
 use Packaged\Glimpse\Tags\Span;
 use Packaged\Glimpse\Tags\Text\ItalicText;
@@ -58,9 +58,6 @@ class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
 
   protected function _createIcon()
   {
-    $alias = $this->_getIconFromAlias();
-    $this->_iconKey = isset($alias[$this->_iconKey]) ? $alias[$this->_iconKey] : $this->_iconKey;
-
     if(in_array($this->_iconKey, FaBrandIcons::__BRAND_ICONS))
     {
       $this->_setStyle(FaStyle::BRANDS, true);
@@ -611,231 +608,6 @@ class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
   public function hasClass($class)
   {
     return $this->_icon->hasClass($class);
-  }
-
-  /**
-   * Icon alias list upgrading from Font Awesome 4
-   *
-   * @return array
-   */
-  protected function _getIconFromAlias()
-  {
-    return [
-      "fa-area-chart"           => "fa-chart-area",
-      "fa-arrow-circle-o-down"  => "fa-arrow-alt-circle-down-o",
-      "fa-arrow-circle-o-left"  => "fa-arrow-alt-circle-left-o",
-      "fa-arrow-circle-o-right" => "fa-arrow-alt-circle-right-o",
-      "fa-arrow-circle-o-up"    => "fa-arrow-alt-circle-up-o",
-      "fa-arrows-alt"           => "fa-expand-arrows-alt",
-      "fa-arrows-h"             => "fa-arrows-alt-h",
-      "fa-arrows-v"             => "fa-arrows-alt-v",
-      "fa-arrows"               => "fa-arrows-alt",
-      "fa-asl-interpreting"     => "fa-american-sign-language-interpreting",
-      "fa-automobile"           => "fa-car",
-      "fa-bank"                 => "fa-university",
-      "fa-bar-chart-o"          => "fa-chart-bar-o",
-      "fa-bar-chart"            => "fa-chart-bar",
-      "fa-bathtub"              => "fa-bath",
-      "fa-battery-0"            => "fa-battery-empty",
-      "fa-battery-1"            => "fa-battery-quarter",
-      "fa-battery-2"            => "fa-battery-half",
-      "fa-battery-3"            => "fa-battery-three-quarters",
-      "fa-battery-4"            => "fa-battery-full",
-      "fa-battery"              => "fa-battery-full",
-      "fa-bell-slash-o"         => "fa-bell-slash-o",
-      "fa-bitbucket-square"     => "fa-bitbucket",
-      "fa-bitcoin"              => "fa-btc",
-      "fa-cab"                  => "fa-taxi",
-      "fa-calendar"             => "fa-calendar-alt",
-      "fa-caret-square-o-down"  => "fa-caret-square-down-o",
-      "fa-caret-square-o-left"  => "fa-caret-square-left-o",
-      "fa-caret-square-o-right" => "fa-caret-square-right-o",
-      "fa-caret-square-o-up"    => "fa-caret-square-up-o",
-      "fa-cc"                   => "fa-closed-captioning",
-      "fa-chain-broken"         => "fa-unlink",
-      "fa-chain"                => "fa-link",
-      "fa-circle-o-notch"       => "fa-circle-notch-o",
-      "fa-circle-thin"          => "fa-circle",
-      "fa-close"                => "fa-times",
-      "fa-cloud-download"       => "fa-cloud-download-alt",
-      "fa-cloud-upload"         => "fa-cloud-upload-alt",
-      "fa-cny"                  => "fa-yen-sign",
-      "fa-code-fork"            => "fa-code-branch",
-      "fa-commenting-o"         => "fa-comment-alt-o",
-      "fa-commenting"           => "fa-comment-alt",
-      "fa-credit-card-alt"      => "fa-credit-card",
-      "fa-cutlery"              => "fa-utensils",
-      "fa-dashboard"            => "fa-tachometer-alt",
-      "fa-deafness"             => "fa-deaf",
-      "fa-dedent"               => "fa-outdent",
-      "fa-diamond"              => "fa-gem",
-      "fa-dollar"               => "fa-dollar-sign",
-      "fa-drivers-license-o"    => "fa-id-card-o",
-      "fa-drivers-license"      => "fa-id-card",
-      "fa-eercast"              => "fa-sellcast",
-      "fa-eur"                  => "fa-euro-sign",
-      "fa-euro"                 => "fa-euro-sign",
-      "fa-exchange"             => "fa-exchange-alt",
-      "fa-external-link-square" => "fa-external-link-square-alt",
-      "fa-external-link"        => "fa-external-link-alt",
-      "fa-eyedropper"           => "fa-eye-dropper",
-      "fa-fa"                   => "fa-font-awesome",
-      "fa-facebook-f"           => "fa-facebook-f",
-      "fa-facebook-official"    => "fa-facebook",
-      "fa-facebook"             => "fa-facebook-f",
-      "fa-feed"                 => "fa-rss",
-      "fa-file-movie-o"         => "fa-file-video-o",
-      "fa-file-pdf-o"           => "fa-file-pdf-o",
-      "fa-file-photo-o"         => "fa-file-image-o",
-      "fa-file-picture-o"       => "fa-file-image-o",
-      "fa-file-sound-o"         => "fa-file-audio-o",
-      "fa-file-text-o"          => "fa-file-alt-o",
-      "fa-file-text"            => "fa-file-alt",
-      "fa-file-video-o"         => "fa-file-video-o",
-      "fa-file-word-o"          => "fa-file-word-o",
-      "fa-file-zip-o"           => "fa-file-archive-o",
-      "fa-files-o"              => "fa-copy-o",
-      "fa-flash"                => "fa-bolt",
-      "fa-floppy-o"             => "fa-save-o",
-      "fa-gbp"                  => "fa-pound-sign",
-      "fa-ge"                   => "fa-empire",
-      "fa-gear"                 => "fa-cog",
-      "fa-gears"                => "fa-cogs",
-      "fa-gittip"               => "fa-gratipay",
-      "fa-glass"                => "fa-glass-martini",
-      "fa-google-plus-circle"   => "fa-google-plus",
-      "fa-google-plus-official" => "fa-google-plus",
-      "fa-google-plus"          => "fa-google-plus-g",
-      "fa-group"                => "fa-users",
-      "fa-hand-grab-o"          => "fa-hand-rock-o",
-      "fa-hand-lizard-o"        => "fa-hand-lizard-o",
-      "fa-hand-o-down"          => "fa-hand-point-down-o",
-      "fa-hand-o-left"          => "fa-hand-point-left-o",
-      "fa-hand-o-right"         => "fa-hand-point-right-o",
-      "fa-hand-o-up"            => "fa-hand-point-up-o",
-      "fa-hand-stop-o"          => "fa-hand-paper-o",
-      "fa-hard-of-hearing"      => "fa-deaf",
-      "fa-header"               => "fa-heading",
-      "fa-hotel"                => "fa-bed",
-      "fa-hourglass-1"          => "fa-hourglass-start",
-      "fa-hourglass-2"          => "fa-hourglass-half",
-      "fa-hourglass-3"          => "fa-hourglass-end",
-      "fa-ils"                  => "fa-shekel-sign",
-      "fa-inr"                  => "fa-rupee-sign",
-      "fa-institution"          => "fa-university",
-      "fa-intersex"             => "fa-transgender",
-      "fa-jpy"                  => "fa-yen-sign",
-      "fa-krw"                  => "fa-won-sign",
-      "fa-legal"                => "fa-gavel",
-      "fa-level-down"           => "fa-level-down-alt",
-      "fa-level-up"             => "fa-level-up-alt",
-      "fa-life-bouy"            => "fa-life-ring",
-      "fa-life-buoy"            => "fa-life-ring",
-      "fa-life-saver"           => "fa-life-ring",
-      "fa-lightbulb-o"          => "fa-lightbulb-o",
-      "fa-line-chart"           => "fa-chart-line",
-      "fa-linkedin-square"      => "fa-linkedin",
-      "fa-linkedin"             => "fa-linkedin-in",
-      "fa-long-arrow-down"      => "fa-long-arrow-alt-down",
-      "fa-long-arrow-left"      => "fa-long-arrow-alt-left",
-      "fa-long-arrow-right"     => "fa-long-arrow-alt-right",
-      "fa-long-arrow-up"        => "fa-long-arrow-alt-up",
-      "fa-mail-forward"         => "fa-share",
-      "fa-mail-reply-all"       => "fa-reply-all",
-      "fa-mail-reply"           => "fa-reply",
-      "fa-map-marker"           => "fa-map-marker-alt",
-      "fa-meanpath"             => "fa-font-awesome",
-      "fa-mobile-phone"         => "fa-mobile-alt",
-      "fa-mobile"               => "fa-mobile-alt",
-      "fa-money"                => "fa-money-bill-alt",
-      "fa-mortar-board"         => "fa-graduation-cap",
-      "fa-navicon"              => "fa-bars",
-      "fa-paste"                => "fa-clipboard",
-      "fa-pencil-square-o"      => "fa-edit-o",
-      "fa-pencil-square"        => "fa-pen-square",
-      "fa-pencil"               => "fa-pencil-alt",
-      "fa-photo"                => "fa-image",
-      "fa-picture-o"            => "fa-image-o",
-      "fa-pie-chart"            => "fa-chart-pie",
-      "fa-ra"                   => "fa-rebel",
-      "fa-refresh"              => "fa-sync",
-      "fa-remove"               => "fa-times",
-      "fa-reorder"              => "fa-bars",
-      "fa-repeat"               => "fa-redo",
-      "fa-resistance"           => "fa-rebel",
-      "fa-rmb"                  => "fa-yen-sign",
-      "fa-rotate-left"          => "fa-undo",
-      "fa-rotate-right"         => "fa-redo",
-      "fa-rouble"               => "fa-ruble-sign",
-      "fa-rub"                  => "fa-ruble-sign",
-      "fa-ruble"                => "fa-ruble-sign",
-      "fa-rupee"                => "fa-rupee-sign",
-      "fa-s15"                  => "fa-bath",
-      "fa-scissors"             => "fa-cut",
-      "fa-send-o"               => "fa-paper-plane-o",
-      "fa-send"                 => "fa-paper-plane",
-      "fa-shekel"               => "fa-shekel-sign",
-      "fa-sheqel"               => "fa-shekel-sign",
-      "fa-shield"               => "fa-shield-alt",
-      "fa-sign-in"              => "fa-sign-in-alt",
-      "fa-sign-out"             => "fa-sign-out-alt",
-      "fa-signing"              => "fa-sign-language",
-      "fa-sliders"              => "fa-sliders-h",
-      "fa-snowflake-o"          => "fa-snowflake-o",
-      "fa-soccer-ball-o"        => "fa-futbol-o",
-      "fa-sort-alpha-asc"       => "fa-sort-alpha-down",
-      "fa-sort-alpha-desc"      => "fa-sort-alpha-up",
-      "fa-sort-amount-asc"      => "fa-sort-amount-down",
-      "fa-sort-amount-desc"     => "fa-sort-amount-up",
-      "fa-sort-asc"             => "fa-sort-up",
-      "fa-sort-desc"            => "fa-sort-down",
-      "fa-sort-numeric-asc"     => "fa-sort-numeric-down",
-      "fa-sort-numeric-desc"    => "fa-sort-numeric-up",
-      "fa-spoon"                => "fa-utensil-spoon",
-      "fa-star-half-empty"      => "fa-star-half",
-      "fa-star-half-full"       => "fa-star-half",
-      "fa-support"              => "fa-life-ring",
-      "fa-tablet"               => "fa-tablet-alt",
-      "fa-tachometer"           => "fa-tachometer-alt",
-      "fa-television"           => "fa-tv",
-      "fa-thermometer-0"        => "fa-thermometer-empty",
-      "fa-thermometer-1"        => "fa-thermometer-quarter",
-      "fa-thermometer-2"        => "fa-thermometer-half",
-      "fa-thermometer-3"        => "fa-thermometer-three-quarters",
-      "fa-thermometer-4"        => "fa-thermometer-full",
-      "fa-thermometer"          => "fa-thermometer-full",
-      "fa-thumb-tack"           => "fa-thumbtack",
-      "fa-thumbs-o-down"        => "fa-thumbs-down-o",
-      "fa-thumbs-o-up"          => "fa-thumbs-up-o",
-      "fa-ticket"               => "fa-ticket-alt",
-      "fa-times-rectangle-o"    => "fa-window-close-o",
-      "fa-times-rectangle"      => "fa-window-close",
-      "fa-toggle-down"          => "fa-caret-square-down",
-      "fa-toggle-left"          => "fa-caret-square-left",
-      "fa-toggle-right"         => "fa-caret-square-right",
-      "fa-toggle-up"            => "fa-caret-square-up",
-      "fa-trash-o"              => "fa-trash-alt-o",
-      "fa-trash"                => "fa-trash-alt",
-      "fa-try"                  => "fa-lira-sign",
-      "fa-turkish-lira"         => "fa-lira-sign",
-      "fa-unsorted"             => "fa-sort",
-      "fa-usd"                  => "fa-dollar-sign",
-      "fa-vcard-o"              => "fa-address-card-o",
-      "fa-vcard"                => "fa-address-card",
-      "fa-video-camera"         => "fa-video",
-      "fa-vimeo"                => "fa-vimeo-v",
-      "fa-volume-control-phone" => "fa-phone-volume",
-      "fa-warning"              => "fa-exclamation-triangle",
-      "fa-wechat"               => "fa-weixin",
-      "fa-wheelchair-alt"       => "fa-accessible-icon",
-      "fa-won"                  => "fa-won-sign",
-      "fa-y-combinator-square"  => "fa-hacker-news",
-      "fa-yc-square"            => "fa-hacker-news",
-      "fa-yc"                   => "fa-y-combinator",
-      "fa-yen"                  => "fa-yen-sign",
-      "fa-youtube-play"         => "fa-youtube",
-      "fa-youtube-square"       => "fa-youtube",
-    ];
   }
 
   /**

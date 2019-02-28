@@ -1,8 +1,8 @@
 <?php
-namespace Fortifi\Tests\FontAwesome;
+namespace PackagedUi\Tests\FontAwesome;
 
-use Fortifi\FontAwesome\Enums\FaSizes;
-use Fortifi\FontAwesome\FaIcon;
+use PackagedUi\FontAwesome\Enums\FaSizes;
+use PackagedUi\FontAwesome\FaIcon;
 use PHPUnit\Framework\TestCase;
 
 class IconsSizeTest extends TestCase

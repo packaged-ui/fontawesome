@@ -1,5 +1,5 @@
 <?php
-namespace Fortifi\FontAwesome\Interfaces\Icons;
+namespace PackagedUi\FontAwesome\Interfaces\Icons;
 
 interface WeatherIcons
 {

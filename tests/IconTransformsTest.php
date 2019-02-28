@@ -1,8 +1,8 @@
-<?php namespace Fortifi\Tests\FontAwesome;
+<?php namespace PackagedUi\Tests\FontAwesome;
 
-use Fortifi\FontAwesome\Enums\FaRotate;
-use Fortifi\FontAwesome\Enums\FaTransforms;
-use Fortifi\FontAwesome\FaIcon;
+use PackagedUi\FontAwesome\Enums\FaRotate;
+use PackagedUi\FontAwesome\Enums\FaTransforms;
+use PackagedUi\FontAwesome\FaIcon;
 use PHPUnit\Framework\TestCase;
 
 class IconTransformsTest extends TestCase

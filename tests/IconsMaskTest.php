@@ -1,8 +1,8 @@
 <?php
-namespace Fortifi\Tests\FontAwesome;
+namespace PackagedUi\Tests\FontAwesome;
 
-use Fortifi\FontAwesome\Enums\FaStyle;
-use Fortifi\FontAwesome\FaIcon;
+use PackagedUi\FontAwesome\Enums\FaStyle;
+use PackagedUi\FontAwesome\FaIcon;
 use PHPUnit\Framework\TestCase;
 
 class IconsMaskTest extends TestCase

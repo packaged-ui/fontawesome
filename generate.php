@@ -132,7 +132,7 @@ foreach($yaml as $category => $catData)
   $interfaces[] = $className;
 
   $fileContent = '<?php' . PHP_EOL;
-  $fileContent .= 'namespace Fortifi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+  $fileContent .= 'namespace PackagedUi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
   $fileContent .= 'interface ' . $className . PHP_EOL;
   $fileContent .= '{' . PHP_EOL;
   $fileContent .= iconsLoop($className, $icons, $usedIcons, $reservedWords);
@@ -144,7 +144,7 @@ foreach($yaml as $category => $catData)
 }
 
 $fileContent = '<?php' . PHP_EOL;
-$fileContent .= 'namespace Fortifi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+$fileContent .= 'namespace PackagedUi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
 $fileContent .= 'interface FaBrandIcons' . PHP_EOL;
 $fileContent .= '{' . PHP_EOL;
 $fileContent .= iconsLoop('FaBrandIcons', $brandIcons, $usedIcons, $reservedWords);
@@ -159,7 +159,7 @@ $interfaces[] = 'FaBrandIcons';
 /* Misc Icons */
 
 $fileContent = '<?php' . PHP_EOL;
-$fileContent .= 'namespace Fortifi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+$fileContent .= 'namespace PackagedUi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
 $fileContent .= 'interface MiscIcons' . PHP_EOL;
 $fileContent .= '{' . PHP_EOL;
 $fileContent .= iconsLoop('MiscIcons', array_diff($miscIcons, $usedIcons), $usedIcons, $reservedWords);
@@ -172,7 +172,7 @@ $interfaces[] = 'MiscIcons';
 /* Wrap All Icons */
 
 $fileContent = '<?php' . PHP_EOL;
-$fileContent .= 'namespace Fortifi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+$fileContent .= 'namespace PackagedUi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
 $fileContent .= 'interface FaIcons extends ' . implode(', ', $interfaces) . PHP_EOL;
 $fileContent .= '{' . PHP_EOL;
 $fileContent .= '}' . PHP_EOL;

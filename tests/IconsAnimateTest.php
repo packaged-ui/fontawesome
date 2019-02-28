@@ -1,8 +1,8 @@
 <?php
-namespace Fortifi\Tests\FontAwesome;
+namespace PackagedUi\Tests\FontAwesome;
 
-use Fortifi\FontAwesome\Enums\FaAnimate;
-use Fortifi\FontAwesome\FaIcon;
+use PackagedUi\FontAwesome\Enums\FaAnimate;
+use PackagedUi\FontAwesome\FaIcon;
 use PHPUnit\Framework\TestCase;
 
 class IconsAnimateTest extends TestCase
