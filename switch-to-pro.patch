@@ -1,0 +1,74 @@
+Index: composer.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- composer.json	(revision 98cc2237e658b2fe9fdcb571c4850fd007af16af)
++++ composer.json	(date 1553796492000)
+@@ -12,7 +12,7 @@
+   "require-dev": {
+     "symfony/yaml": "4.1.4",
+     "phpunit/phpunit": "^5.7.0",
+-    "fortawesome/font-awesome": "^5.7"
++    "fortawesome/font-awesome-pro": "^5.7"
+   },
+   "autoload": {
+     "psr-4": {
+@@ -23,7 +23,7 @@
+   "repositories": [
+     {
+       "type": "git",
+-      "url": "https://github.com/FortAwesome/Font-Awesome.git"
++      "url": "https://github.com/FortAwesome/Font-Awesome-Pro.git"
+     }
+   ]
+ }
+Index: generate.sh
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- generate.sh	(revision 98cc2237e658b2fe9fdcb571c4850fd007af16af)
++++ generate.sh	(date 1553796545000)
+@@ -3,5 +3,5 @@
+ yarn upgrade
+ php generate.php
+ 
+-cp -r node_modules/@fortawesome/fontawesome-free/css/all.min.css assets/css/all.min.css
+-cp -r node_modules/@fortawesome/fontawesome-free/webfonts assets
++cp -r node_modules/@fortawesome/fontawesome-pro/css/all.min.css assets/css/all.min.css
++cp -r node_modules/@fortawesome/fontawesome-pro/webfonts assets
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- package.json	(revision 98cc2237e658b2fe9fdcb571c4850fd007af16af)
++++ package.json	(date 1553796516000)
+@@ -1,5 +1,5 @@
+ {
+   "devDependencies": {
+-    "@fortawesome/fontawesome-free": "^5.7"
++    "@fortawesome/fontawesome-pro": "^5.7"
+   }
+ }
+Index: generate.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- generate.php	(revision 98cc2237e658b2fe9fdcb571c4850fd007af16af)
++++ generate.php	(date 1553796567000)
+@@ -3,10 +3,10 @@
+ 
+ use Symfony\Component\Yaml\Yaml;
+ 
+-$url = 'vendor/fortawesome/font-awesome/metadata/categories.yml';
++$url = 'vendor/fortawesome/font-awesome-pro/metadata/categories.yml';
+ $yaml = Yaml::parse(file_get_contents($url));
+ 
+-$url = 'vendor/fortawesome/font-awesome/metadata/icons.yml';
++$url = 'vendor/fortawesome/font-awesome-pro/metadata/icons.yml';
+ $iconsYaml = Yaml::parse(file_get_contents($url));
+ 
+ $brandIcons = $miscIcons = [];
