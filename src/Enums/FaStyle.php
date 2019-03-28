@@ -1,7 +1,9 @@
 <?php
 namespace PackagedUi\FontAwesome\Enums;
 
-class FaStyle extends FaEnum
+use Packaged\Enum\AbstractEnum;
+
+class FaStyle extends AbstractEnum
 {
   const REGULAR = 'far';
   const LIGHT = 'fal';

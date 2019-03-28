@@ -1,7 +1,9 @@
 <?php
 namespace PackagedUi\FontAwesome\Enums;
 
-class FaTransforms extends FaEnum
+use Packaged\Enum\AbstractEnum;
+
+class FaTransforms extends AbstractEnum
 {
   // scaling
   const SHRINK = 'shrink';

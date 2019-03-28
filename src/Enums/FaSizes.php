@@ -1,7 +1,9 @@
 <?php
 namespace PackagedUi\FontAwesome\Enums;
 
-class FaSizes extends FaEnum
+use Packaged\Enum\AbstractEnum;
+
+class FaSizes extends AbstractEnum
 {
   const XS = 'fa-xs';
   const SM = 'fa-sm';

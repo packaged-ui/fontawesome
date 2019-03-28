@@ -2,23 +2,22 @@
 namespace PackagedUi\FontAwesome;
 
 use Exception;
-use PackagedUi\FontAwesome\Enums\FaAnimate;
-use PackagedUi\FontAwesome\Enums\FaEnum;
-use PackagedUi\FontAwesome\Enums\FaPull;
-use PackagedUi\FontAwesome\Enums\FaRotate;
-use PackagedUi\FontAwesome\Enums\FaSizes;
-use PackagedUi\FontAwesome\Enums\FaStyle;
-use PackagedUi\FontAwesome\Enums\FaTransforms;
-use PackagedUi\FontAwesome\Interfaces\Icons\FaBrandIcons;
-use PackagedUi\FontAwesome\Interfaces\Icons\FaIcons;
 use Packaged\Glimpse\Core\HtmlTag;
 use Packaged\Glimpse\Tags\Span;
 use Packaged\Glimpse\Tags\Text\ItalicText;
 use Packaged\Helpers\ValueAs;
 use Packaged\SafeHtml\ISafeHtmlProducer;
 use Packaged\SafeHtml\SafeHtml;
+use PackagedUi\FontAwesome\Enums\FaAnimate;
+use PackagedUi\FontAwesome\Enums\FaPull;
+use PackagedUi\FontAwesome\Enums\FaRotate;
+use PackagedUi\FontAwesome\Enums\FaSizes;
+use PackagedUi\FontAwesome\Enums\FaStyle;
+use PackagedUi\FontAwesome\Enums\FaTransforms;
+use PackagedUi\FontAwesome\Generated\FaBrandIcons;
+use PackagedUi\FontAwesome\Generated\FaIcons;
 
-class FaIcon extends FaEnum implements FaIcons, ISafeHtmlProducer
+class FaIcon implements FaIcons, ISafeHtmlProducer
 {
   /** @var string */
   protected $_iconKey = '';

@@ -132,19 +132,19 @@ foreach($yaml as $category => $catData)
   $interfaces[] = $className;
 
   $fileContent = '<?php' . PHP_EOL;
-  $fileContent .= 'namespace PackagedUi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+  $fileContent .= 'namespace PackagedUi\FontAwesome\Generated;' . PHP_EOL . PHP_EOL;
   $fileContent .= 'interface ' . $className . PHP_EOL;
   $fileContent .= '{' . PHP_EOL;
   $fileContent .= iconsLoop($className, $icons, $usedIcons, $reservedWords);
   $fileContent .= '}' . PHP_EOL;
 
-  $filename = 'src/Interfaces/Icons/' . $className . '.php';
+  $filename = 'src/Generated/' . $className . '.php';
 
   file_put_contents($filename, $fileContent);
 }
 
 $fileContent = '<?php' . PHP_EOL;
-$fileContent .= 'namespace PackagedUi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+$fileContent .= 'namespace PackagedUi\FontAwesome\Generated;' . PHP_EOL . PHP_EOL;
 $fileContent .= 'interface FaBrandIcons' . PHP_EOL;
 $fileContent .= '{' . PHP_EOL;
 $fileContent .= iconsLoop('FaBrandIcons', $brandIcons, $usedIcons, $reservedWords);
@@ -152,30 +152,30 @@ $fileContent .= PHP_EOL;
 $fileContent .= '  const __BRAND_ICONS = [\'fa-' . implode('\',\'fa-', $brandIcons) . '\'];' . PHP_EOL;
 $fileContent .= '}' . PHP_EOL;
 
-$filename = 'src/Interfaces/Icons/FaBrandIcons.php';
+$filename = 'src/Generated/FaBrandIcons.php';
 file_put_contents($filename, $fileContent);
 $interfaces[] = 'FaBrandIcons';
 
 /* Misc Icons */
 
 $fileContent = '<?php' . PHP_EOL;
-$fileContent .= 'namespace PackagedUi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+$fileContent .= 'namespace PackagedUi\FontAwesome\Generated;' . PHP_EOL . PHP_EOL;
 $fileContent .= 'interface MiscIcons' . PHP_EOL;
 $fileContent .= '{' . PHP_EOL;
 $fileContent .= iconsLoop('MiscIcons', array_diff($miscIcons, $usedIcons), $usedIcons, $reservedWords);
 $fileContent .= '}' . PHP_EOL;
 
-$filename = 'src/Interfaces/Icons/MiscIcons.php';
+$filename = 'src/Generated/MiscIcons.php';
 file_put_contents($filename, $fileContent);
 $interfaces[] = 'MiscIcons';
 
 /* Wrap All Icons */
 
 $fileContent = '<?php' . PHP_EOL;
-$fileContent .= 'namespace PackagedUi\FontAwesome\Interfaces\Icons;' . PHP_EOL . PHP_EOL;
+$fileContent .= 'namespace PackagedUi\FontAwesome\Generated;' . PHP_EOL . PHP_EOL;
 $fileContent .= 'interface FaIcons extends ' . implode(', ', $interfaces) . PHP_EOL;
 $fileContent .= '{' . PHP_EOL;
 $fileContent .= '}' . PHP_EOL;
 
-$filename = 'src/Interfaces/Icons/FaIcons.php';
+$filename = 'src/Generated/FaIcons.php';
 file_put_contents($filename, $fileContent);

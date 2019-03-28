@@ -1,7 +1,9 @@
 <?php
 namespace PackagedUi\FontAwesome\Enums;
 
-class FaRotate extends FaEnum
+use Packaged\Enum\AbstractEnum;
+
+class FaRotate extends AbstractEnum
 {
   const VERTICAL = 'fa-flip-vertical';
   const HORIZONTAL = 'fa-flip-horizontal';

@@ -1,7 +1,9 @@
 <?php
 namespace PackagedUi\FontAwesome\Enums;
 
-class FaAnimate extends FaEnum
+use Packaged\Enum\AbstractEnum;
+
+class FaAnimate extends AbstractEnum
 {
   const SPIN = 'fa-spin';
   const PULSE = 'fa-pulse';
