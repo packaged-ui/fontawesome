@@ -19,6 +19,8 @@ use PackagedUi\FontAwesome\Generated\FaIcons;
 
 class FaIcon implements FaIcons, ISafeHtmlProducer
 {
+  const CSS_PATH = 'assets/css/all.min.css';
+
   /** @var string */
   protected $_iconKey = '';
   /** @var HtmlTag */
