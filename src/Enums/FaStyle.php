@@ -9,9 +9,4 @@ class FaStyle extends AbstractEnum
   const LIGHT = 'fal';
   const SOLID = 'fas';
   const BRANDS = 'fab';
-
-  public static function getValues()
-  {
-    return [FaStyle::BRANDS, FaStyle::REGULAR, FaStyle::LIGHT, FaStyle::SOLID,];
-  }
 }
