@@ -53,6 +53,7 @@ interface StatusIcons
   const MINUS_SQUARE_STA = 'fa-minus-square';
   const PARKING_STA = 'fa-parking';
   const PHONE_STA = 'fa-phone';
+  const PHONE_ALT_STA = 'fa-phone-alt';
   const PHONE_SLASH_STA = 'fa-phone-slash';
   const PLUS_STA = 'fa-plus';
   const PLUS_CIRCLE_STA = 'fa-plus-circle';

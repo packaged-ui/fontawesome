@@ -11,10 +11,12 @@ interface SocialIcons
   const ENVELOPE_SOC = 'fa-envelope';
   const HASHTAG_SOC = 'fa-hashtag';
   const HEART_SOC = 'fa-heart';
+  const ICONS_SOC = 'fa-icons';
   const IMAGE_SOC = 'fa-image';
   const IMAGES_SOC = 'fa-images';
   const MAP_MARKER_SOC = 'fa-map-marker';
   const MAP_MARKER_ALT_SOC = 'fa-map-marker-alt';
+  const PHOTO_VIDEO_SOC = 'fa-photo-video';
   const POLL_SOC = 'fa-poll';
   const POLL_H_SOC = 'fa-poll-h';
   const RETWEET_SOC = 'fa-retweet';

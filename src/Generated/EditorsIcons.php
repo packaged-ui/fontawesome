@@ -8,6 +8,9 @@ interface EditorsIcons
   const ALIGN_LEFT = 'fa-align-left';
   const ALIGN_RIGHT = 'fa-align-right';
   const BOLD = 'fa-bold';
+  const BORDER_ALL = 'fa-border-all';
+  const BORDER_NONE = 'fa-border-none';
+  const BORDER_STYLE = 'fa-border-style';
   const CLIPBOARD_EDI = 'fa-clipboard';
   const _CLONE_EDI = 'fa-clone';
   const COLUMNS_EDI = 'fa-columns';
@@ -22,6 +25,7 @@ interface EditorsIcons
   const HEADING = 'fa-heading';
   const HIGHLIGHTER_EDI = 'fa-highlighter';
   const I_CURSOR = 'fa-i-cursor';
+  const ICONS_EDI = 'fa-icons';
   const INDENT = 'fa-indent';
   const ITALIC = 'fa-italic';
   const LINK = 'fa-link';
@@ -45,10 +49,12 @@ interface EditorsIcons
   const QUOTE_RIGHT_EDI = 'fa-quote-right';
   const REDO_EDI = 'fa-redo';
   const REDO_ALT_EDI = 'fa-redo-alt';
+  const REMOVE_FORMAT = 'fa-remove-format';
   const REPLY_EDI = 'fa-reply';
   const REPLY_ALL_EDI = 'fa-reply-all';
   const SCREWDRIVER_EDI = 'fa-screwdriver';
   const SHARE_EDI = 'fa-share';
+  const SPELL_CHECK = 'fa-spell-check';
   const STRIKETHROUGH = 'fa-strikethrough';
   const SUBSCRIPT = 'fa-subscript';
   const SUPERSCRIPT = 'fa-superscript';

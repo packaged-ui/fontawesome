@@ -21,6 +21,7 @@ interface FilesIcons
   const FOLDER_FIL = 'fa-folder';
   const FOLDER_OPEN_FIL = 'fa-folder-open';
   const PASTE_FIL = 'fa-paste';
+  const PHOTO_VIDEO_FIL = 'fa-photo-video';
   const SAVE_FIL = 'fa-save';
   const STICKY_NOTE_FIL = 'fa-sticky-note';
 }

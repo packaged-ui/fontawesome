@@ -15,6 +15,7 @@ interface ComputersIcons
   const MICROCHIP_COM = 'fa-microchip';
   const MOBILE_COM = 'fa-mobile';
   const MOBILE_ALT_COM = 'fa-mobile-alt';
+  const MOUSE = 'fa-mouse';
   const PLUG = 'fa-plug';
   const POWER_OFF = 'fa-power-off';
   const _PRINT_COM = 'fa-print';
@@ -27,6 +28,6 @@ interface ComputersIcons
   const STREAM_COM = 'fa-stream';
   const TABLET = 'fa-tablet';
   const TABLET_ALT = 'fa-tablet-alt';
-  const TV = 'fa-tv';
+  const TV_COM = 'fa-tv';
   const UPLOAD_COM = 'fa-upload';
 }

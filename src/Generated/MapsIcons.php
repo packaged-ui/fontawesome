@@ -6,6 +6,8 @@ interface MapsIcons
   const AMBULANCE_MAP = 'fa-ambulance';
   const ANCHOR = 'fa-anchor';
   const BALANCE_SCALE_MAP = 'fa-balance-scale';
+  const BALANCE_SCALE_LEFT_MAP = 'fa-balance-scale-left';
+  const BALANCE_SCALE_RIGHT_MAP = 'fa-balance-scale-right';
   const BATH_MAP = 'fa-bath';
   const BED_MAP = 'fa-bed';
   const BEER_MAP = 'fa-beer';
@@ -77,7 +79,9 @@ interface MapsIcons
   const PARKING = 'fa-parking';
   const PAW_MAP = 'fa-paw';
   const PHONE_MAP = 'fa-phone';
+  const PHONE_ALT_MAP = 'fa-phone-alt';
   const PHONE_SQUARE_MAP = 'fa-phone-square';
+  const PHONE_SQUARE_ALT_MAP = 'fa-phone-square-alt';
   const PHONE_VOLUME_MAP = 'fa-phone-volume';
   const PLANE = 'fa-plane';
   const PLUG_MAP = 'fa-plug';

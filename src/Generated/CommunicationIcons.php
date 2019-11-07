@@ -32,11 +32,14 @@ interface CommunicationIcons
   const MOBILE_ALT = 'fa-mobile-alt';
   const PAPER_PLANE = 'fa-paper-plane';
   const PHONE_COM = 'fa-phone';
+  const PHONE_ALT_COM = 'fa-phone-alt';
   const PHONE_SLASH_COM = 'fa-phone-slash';
   const PHONE_SQUARE_COM = 'fa-phone-square';
+  const PHONE_SQUARE_ALT_COM = 'fa-phone-square-alt';
   const PHONE_VOLUME_COM = 'fa-phone-volume';
   const RSS_COM = 'fa-rss';
   const RSS_SQUARE_COM = 'fa-rss-square';
   const TTY_COM = 'fa-tty';
+  const VOICEMAIL = 'fa-voicemail';
   const WIFI = 'fa-wifi';
 }

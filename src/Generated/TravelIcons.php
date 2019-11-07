@@ -36,6 +36,7 @@ interface TravelIcons
   const SWIMMING_POOL_TRA = 'fa-swimming-pool';
   const TAXI_TRA = 'fa-taxi';
   const TRAM_TRA = 'fa-tram';
+  const TV_TRA = 'fa-tv';
   const UMBRELLA_BEACH_TRA = 'fa-umbrella-beach';
   const WINE_GLASS_TRA = 'fa-wine-glass';
   const WINE_GLASS_ALT_TRA = 'fa-wine-glass-alt';

@@ -4,6 +4,7 @@ namespace PackagedUi\FontAwesome\Generated;
 interface SummerIcons
 {
   const ANCHOR_SUM = 'fa-anchor';
+  const BIKING_SUM = 'fa-biking';
   const FISH_SUM = 'fa-fish';
   const HOTDOG_SUM = 'fa-hotdog';
   const ICE_CREAM_SUM = 'fa-ice-cream';

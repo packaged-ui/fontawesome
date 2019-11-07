@@ -11,6 +11,7 @@ interface HouseholdIcons
   const DOOR_CLOSED_HOU = 'fa-door-closed';
   const DOOR_OPEN_HOU = 'fa-door-open';
   const DUNGEON_HOU = 'fa-dungeon';
+  const FAN = 'fa-fan';
   const SHOWER_HOU = 'fa-shower';
   const TOILET_PAPER_HOU = 'fa-toilet-paper';
   const TV_HOU = 'fa-tv';

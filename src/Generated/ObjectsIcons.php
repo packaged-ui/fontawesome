@@ -9,6 +9,8 @@ interface ObjectsIcons
   const AWARD_OBJ = 'fa-award';
   const BABY_CARRIAGE_OBJ = 'fa-baby-carriage';
   const BALANCE_SCALE_OBJ = 'fa-balance-scale';
+  const BALANCE_SCALE_LEFT_OBJ = 'fa-balance-scale-left';
+  const BALANCE_SCALE_RIGHT_OBJ = 'fa-balance-scale-right';
   const BATH_OBJ = 'fa-bath';
   const BED_OBJ = 'fa-bed';
   const BEER_OBJ = 'fa-beer';
@@ -157,6 +159,7 @@ interface ObjectsIcons
   const PEN_NIB_OBJ = 'fa-pen-nib';
   const PENCIL_ALT_OBJ = 'fa-pencil-alt';
   const PHONE_OBJ = 'fa-phone';
+  const PHONE_ALT_OBJ = 'fa-phone-alt';
   const PLANE_OBJ = 'fa-plane';
   const PLUG_OBJ = 'fa-plug';
   const _PRINT_OBJ = 'fa-print';

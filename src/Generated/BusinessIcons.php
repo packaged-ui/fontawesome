@@ -7,6 +7,8 @@ interface BusinessIcons
   const ADDRESS_CARD = 'fa-address-card';
   const ARCHIVE = 'fa-archive';
   const BALANCE_SCALE = 'fa-balance-scale';
+  const BALANCE_SCALE_LEFT = 'fa-balance-scale-left';
+  const BALANCE_SCALE_RIGHT = 'fa-balance-scale-right';
   const BIRTHDAY_CAKE = 'fa-birthday-cake';
   const BOOK = 'fa-book';
   const BRIEFCASE = 'fa-briefcase';
@@ -58,8 +60,10 @@ interface BusinessIcons
   const PENCIL_ALT = 'fa-pencil-alt';
   const PERCENT = 'fa-percent';
   const PHONE = 'fa-phone';
+  const PHONE_ALT = 'fa-phone-alt';
   const PHONE_SLASH = 'fa-phone-slash';
   const PHONE_SQUARE = 'fa-phone-square';
+  const PHONE_SQUARE_ALT = 'fa-phone-square-alt';
   const PHONE_VOLUME_BUS = 'fa-phone-volume';
   const _PRINT = 'fa-print';
   const PROJECT_DIAGRAM = 'fa-project-diagram';

@@ -5,6 +5,8 @@ interface PoliticalIcons
 {
   const AWARD_POL = 'fa-award';
   const BALANCE_SCALE_POL = 'fa-balance-scale';
+  const BALANCE_SCALE_LEFT_POL = 'fa-balance-scale-left';
+  const BALANCE_SCALE_RIGHT_POL = 'fa-balance-scale-right';
   const BULLHORN_POL = 'fa-bullhorn';
   const CHECK_DOUBLE_POL = 'fa-check-double';
   const DEMOCRAT = 'fa-democrat';

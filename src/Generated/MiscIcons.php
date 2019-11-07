@@ -12,6 +12,5 @@ interface MiscIcons
   const SIGNATURE = 'fa-signature';
   const SKULL = 'fa-skull';
   const VR_CARDBOARD = 'fa-vr-cardboard';
-  const WAVE_SQUARE = 'fa-wave-square';
   const WEIGHT_HANGING = 'fa-weight-hanging';
 }

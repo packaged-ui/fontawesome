@@ -8,6 +8,7 @@ interface UsersPeopleIcons
   const ADDRESS_CARD_UPI = 'fa-address-card';
   const BABY_UPI = 'fa-baby';
   const BED_UPI = 'fa-bed';
+  const BIKING_UPI = 'fa-biking';
   const BLIND_UPI = 'fa-blind';
   const CHALKBOARD_TEACHER_UPI = 'fa-chalkboard-teacher';
   const CHILD = 'fa-child';

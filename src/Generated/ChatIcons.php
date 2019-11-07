@@ -10,8 +10,10 @@ interface ChatIcons
   const COMMENT_SLASH = 'fa-comment-slash';
   const COMMENTS = 'fa-comments';
   const FROWN = 'fa-frown';
+  const ICONS = 'fa-icons';
   const MEH = 'fa-meh';
   const PHONE_CHA = 'fa-phone';
+  const PHONE_ALT_CHA = 'fa-phone-alt';
   const PHONE_SLASH_CHA = 'fa-phone-slash';
   const POO = 'fa-poo';
   const QUOTE_LEFT = 'fa-quote-left';

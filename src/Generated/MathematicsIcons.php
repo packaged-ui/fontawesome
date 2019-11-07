@@ -19,4 +19,5 @@ interface MathematicsIcons
   const SUBSCRIPT_MAT = 'fa-subscript';
   const SUPERSCRIPT_MAT = 'fa-superscript';
   const TIMES_MAT = 'fa-times';
+  const WAVE_SQUARE = 'fa-wave-square';
 }

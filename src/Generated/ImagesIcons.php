@@ -21,6 +21,7 @@ interface ImagesIcons
   const ID_CARD = 'fa-id-card';
   const IMAGE = 'fa-image';
   const IMAGES = 'fa-images';
+  const PHOTO_VIDEO_IMA = 'fa-photo-video';
   const PORTRAIT = 'fa-portrait';
   const SLIDERS_H = 'fa-sliders-h';
   const TINT_IMA = 'fa-tint';

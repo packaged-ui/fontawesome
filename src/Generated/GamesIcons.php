@@ -20,11 +20,10 @@ interface GamesIcons
   const DICE_SIX = 'fa-dice-six';
   const DICE_THREE = 'fa-dice-three';
   const DICE_TWO = 'fa-dice-two';
-  const GAMEPAD = 'fa-gamepad';
+  const GAMEPAD_GAM = 'fa-gamepad';
   const GHOST = 'fa-ghost';
   const HEADSET = 'fa-headset';
   const HEART_GAM = 'fa-heart';
-  const NINTENDO_SWITCH = 'fa-nintendo-switch';
   const PLAYSTATION = 'fa-playstation';
   const PUZZLE_PIECE = 'fa-puzzle-piece';
   const STEAM = 'fa-steam';

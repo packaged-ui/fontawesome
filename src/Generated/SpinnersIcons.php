@@ -12,6 +12,7 @@ interface SpinnersIcons
   const COMPASS_SPI = 'fa-compass';
   const CROSSHAIRS_SPI = 'fa-crosshairs';
   const DHARMACHAKRA_SPI = 'fa-dharmachakra';
+  const FAN_SPI = 'fa-fan';
   const HAYKAL_SPI = 'fa-haykal';
   const LIFE_RING_SPI = 'fa-life-ring';
   const PALETTE_SPI = 'fa-palette';

@@ -4,6 +4,7 @@ namespace PackagedUi\FontAwesome\Generated;
 interface FitnessIcons
 {
   const BICYCLE = 'fa-bicycle';
+  const BIKING_FIT = 'fa-biking';
   const BURN_FIT = 'fa-burn';
   const FIRE_ALT_FIT = 'fa-fire-alt';
   const HEART_FIT = 'fa-heart';

@@ -28,6 +28,7 @@ interface AudioVideoIcons
   const PAUSE = 'fa-pause';
   const PAUSE_CIRCLE = 'fa-pause-circle';
   const PHONE_VOLUME_AVI = 'fa-phone-volume';
+  const PHOTO_VIDEO = 'fa-photo-video';
   const PLAY_AVI = 'fa-play';
   const PLAY_CIRCLE = 'fa-play-circle';
   const PODCAST = 'fa-podcast';
@@ -42,6 +43,7 @@ interface AudioVideoIcons
   const STOP_CIRCLE = 'fa-stop-circle';
   const SYNC_AVI = 'fa-sync';
   const SYNC_ALT_AVI = 'fa-sync-alt';
+  const TV = 'fa-tv';
   const UNDO_AVI = 'fa-undo';
   const UNDO_ALT_AVI = 'fa-undo-alt';
   const VIDEO = 'fa-video';

@@ -4,6 +4,8 @@ namespace PackagedUi\FontAwesome\Generated;
 interface FinanceIcons
 {
   const BALANCE_SCALE_FIN = 'fa-balance-scale';
+  const BALANCE_SCALE_LEFT_FIN = 'fa-balance-scale-left';
+  const BALANCE_SCALE_RIGHT_FIN = 'fa-balance-scale-right';
   const BOOK_FIN = 'fa-book';
   const CASH_REGISTER = 'fa-cash-register';
   const CHART_LINE_FIN = 'fa-chart-line';

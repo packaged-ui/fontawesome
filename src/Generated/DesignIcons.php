@@ -22,6 +22,7 @@ interface DesignIcons
   const FILL = 'fa-fill';
   const FILL_DRIP = 'fa-fill-drip';
   const HIGHLIGHTER_DES = 'fa-highlighter';
+  const ICONS_DES = 'fa-icons';
   const LAYER_GROUP = 'fa-layer-group';
   const MAGIC = 'fa-magic';
   const MARKER_DES = 'fa-marker';
